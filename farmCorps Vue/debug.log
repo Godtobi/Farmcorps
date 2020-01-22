@@ -1,0 +1,14 @@
+[0115/100759.908:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value 63f57885-f2a1-411b-8189-ee7d9d6328e2
+[0115/101012.751:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value 63f57885-f2a1-411b-8189-ee7d9d6328e2
+[0115/162249.486:ERROR:process_reader_win.cc(126)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0115/162249.479:ERROR:process_reader_win.cc(126)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0115/162249.491:ERROR:process_reader_win.cc(126)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0115/162249.481:ERROR:process_reader_win.cc(126)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0115/162249.480:ERROR:process_reader_win.cc(126)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0115/162249.583:ERROR:exception_snapshot_win.cc(98)] thread ID 3784 not found in process
+[0115/162249.583:ERROR:exception_snapshot_win.cc(98)] thread ID 5456 not found in process
+[0115/162249.584:ERROR:exception_snapshot_win.cc(98)] thread ID 7964 not found in process
+[0115/162249.584:ERROR:exception_snapshot_win.cc(98)] thread ID 4168 not found in process
+[0115/162249.584:ERROR:exception_snapshot_win.cc(98)] thread ID 9456 not found in process
+[0115/162249.602:ERROR:process_reader_win.cc(126)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0115/162249.602:ERROR:exception_snapshot_win.cc(98)] thread ID 12468 not found in process
