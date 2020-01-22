@@ -165,7 +165,7 @@
                 <div class="card">
                     <h2>1</h2>
                     <div style="clear: both;">
-                        <img src="./assets/atm.svg" alt="">
+                        <img src="{{asset('land/assets/atm.svg')}}" alt="">
                     </div>
                     <h3>fund your account</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quaerat voluptatem veritatis est
@@ -175,7 +175,7 @@
                 <div class="card">
                     <h2>2</h2>
                     <div style="clear: both;">
-                        <img src="./assets/file.svg" alt="">
+                        <img src="{{asset('land/assets/file.svg')}}" alt="">
                     </div>
                     <h3>fund your account</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quaerat voluptatem veritatis est
@@ -185,7 +185,7 @@
                 <div class="card">
                     <h2>3</h2>
                     <div style="clear: both;">
-                        <img src="./assets/money.svg" alt="">
+                        <img src="{{asset('land/assets/money.svg')}}" alt="">
                     </div>
                     <h3>fund your account</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quaerat voluptatem veritatis est
