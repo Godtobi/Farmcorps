@@ -135,7 +135,7 @@ class UsersController extends Controller
         //dd($role);
 
 
-        return view('admin.users.show',compact('user','role'));
+        return view('admin.users.show',compact('user'));
     }
 
     /**

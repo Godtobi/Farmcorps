@@ -90,6 +90,7 @@ body {
 
 .header-content .btn:hover {
     background: #ffa700;
+	color: #009245;
 }
 
 @media(max-width: 960px) {
