@@ -32,6 +32,7 @@ class LoginController extends Controller
     protected function redirectTo()
     {
         if(auth()->user()->hasAnyRole(['farmer'])){
+            dd(3);
             Auth::logout();
             return route('home');
         }

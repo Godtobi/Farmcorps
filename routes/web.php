@@ -29,3 +29,6 @@ Route::get('/sendpassword/{id}', 'UsersController@sendPassword')->name('sendpass
 
 Route::resource('users','UsersController');
 Route::resource('farmers','FarmerController');
+
+Route::get('/map', 'DashboardController@map')->name('map');
+Route::get('/mapped', 'DashboardController@map_details')->name('mapped');
