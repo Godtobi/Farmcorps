@@ -19,7 +19,7 @@
 
       <div class="card card-success">
         <div class="card-header">
-          <h5 class="card-title">Ipetu Farmer</h5>
+          <h5 class="card-title">Ipetutt Farmer</h5>
 
           <div class="card-tools">
             {{--<button type="button" class="btn btn-tool" data-card-widget="collapse">--}}
@@ -37,9 +37,8 @@
                 <a href="#" class="dropdown-item">Separated link</a>
               </div>
             </div>
-            @php
-                    $url = \Illuminate\Support\Facades\URL::previous();@endphp
-            <button onclick="location.href = {!! $url !!};"  type="button" class="btn btn-tool" data-card-widget="remove">
+
+            <button onclick="location.href = {{\Illuminate\Support\Facades\URL::previous()}}"  type="button" class="btn btn-tool" data-card-widget="remove">
               <i class="fas fa-times"></i>
             </button>
           </div>
@@ -55,7 +54,7 @@
                 {{--<strong>Sales: 1 Jan, 2014 - 30 Jul, 2014</strong>--}}
               {{--</p>--}}
 
-              <div style="width: 670px; height: 500px;">
+              <div style="width: 100%; height: 100%;">
                 {!! Mapper::render() !!}
               </div>
               <!-- /.chart-responsive -->

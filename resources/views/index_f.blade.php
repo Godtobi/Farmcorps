@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{asset('land/css/video-background.css')}}">
     <link rel="stylesheet" href="{{asset('land/css/index.css')}}">
-    <link rel="stylesheet" href="{{asset('land/css/nav.css')}}">
     <link rel="stylesheet" href="{{asset('land/css/font-awesome-4.7.0/css/font-awesome.min.css')}}">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
@@ -33,7 +32,7 @@
 
                 <ul class="nav-links">
                     <li class="nav-item">
-                        <a href="#">Home</a>
+                        <a href="/">Home</a>
                     </li>
 
                     <li class="nav-item">
@@ -49,7 +48,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="./pages/FarmCOpage.html">Agent</a>
+                        <a href="#">Farmer</a>
                     </li>
                 </ul>
                 <div class="auth">
@@ -66,7 +65,7 @@
 
                 <ul class="nav-links">
                     <li class="nav-item">
-                        <a href="#">Home</a>
+                        <a href="/">Home</a>
                     </li>
 
                     <li class="nav-item">
@@ -80,9 +79,6 @@
                     <li class="nav-item">
                         <a href="#">Blog</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="./pages/FarmCOpage.html">Agent</a>
-                    </li>
                 </ul>
                 <div class="auth">
                     <a href="#" onclick="openModal()" class="sign-btn">Book A Demo</a>
@@ -93,14 +89,16 @@
 
 
         <div class="fullscreen-video-wrap">
-            <video src="" autoplay="true" loop="true" muted></video>
+            <video src="./video/video.mkv" autoplay="true" loop="true" muted></video>
             <!-- change video background source -->
         </div>
         <div class="header-overlay"></div>
         <div class="header-content">
-            <p>We help you source and aggregate quality grains and other raw materials produced locally and sustainably
-                from the best farmers in Africa to meet your production demand.
-            </p>
+            <!-- <h1>Hello Everyone</h1> -->
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto tempora quod corporis ducimus atque rem
+                unde, in, ad numquam quia provident, adipisci sunt! Obcaecati at similique accusantium, officia enim
+                aperiam iure, deserunt harum perferendis dolor ad blanditiis illum incidunt officiis est nemo. Rerum
+                minima, odio animi quod eaque quam temporibus.</p>
             <a href="#" class="btn open-modal" onclick="openModal()" id="myBtn">Request for Demo</a>
         </div>
     </header>
@@ -109,6 +107,7 @@
 
     <section id="myModal" class="modal">
 
+        <!-- Modal content -->
         <span class="close">&times;</span>
         <div class="modal-content">
             <img style="height: 30px; display: block; width: 100%; object-fit: scale-down;" src="{{asset('land/img/logo.PNG')}}"
@@ -117,7 +116,10 @@
                 <form action="{{route('users.store')}}" method="post">
                     @csrf
                     <div>
-                        <label>Name <span>*</span> </label>  <input name="name" type="text" required>
+                        <label>Name <span>*</span> </label>
+
+                        <input name="name" type="text" required>
+
                     </div>
                     <div>
                         <label>Email <span>*</span> </label> <input name="email" type="email" required>
@@ -136,7 +138,7 @@
                     <div class="checkbox">
                         <label for="">
                         </label>
-                        <input type="checkbox"> Subscribe to our news letter
+                        <input name="subscribe" type="checkbox"> Subscribe to our news letter
                     </div>
 
                     <input type="submit" value="Submit">
@@ -165,37 +167,30 @@
                     <div style="clear: both;">
                         <img src="{{asset('land/assets/atm.svg')}}" alt="">
                     </div>
-                    <h3>Find cohort of producers around your location that grows your raw material</h3>
-                    <p>Our platform helps you aggregate raw produce clusters of smallholder farmers within your value
-                        chain that are using sustainable practices to grow quality produce with capacity to meet your
-                        demand.</p>
-                    <a href="#">Learn More</a>
+                    <h3>fund your account</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quaerat voluptatem veritatis est
+                        fugiat? Eveniet quam suscipit corporis, tempora optio praesentium quos eligendi quia omnis
+                        sequi? Vel totam delectus iusto.</p>
                 </div>
                 <div class="card">
                     <h2>2</h2>
                     <div style="clear: both;">
                         <img src="{{asset('land/assets/file.svg')}}" alt="">
                     </div>
-                    <h3>Initiate a production contract with them through our extension agents</h3>
-                    <p>When you find clusters of smallholders that fulfils your demand, you then initiate a production
-                        contract with these clusters. Our extension agents help mediate the process of fair contract
-                        negotiation between you and the farmers.
-                    </p>
-                    <a href="#">Learn More</a>
-
+                    <h3>fund your account</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quaerat voluptatem veritatis est
+                        fugiat? Eveniet quam suscipit corporis, tempora optio praesentium quos eligendi quia omnis
+                        sequi? Vel totam delectus iusto.</p>
                 </div>
                 <div class="card">
                     <h2>3</h2>
                     <div style="clear: both;">
                         <img src="{{asset('land/assets/money.svg')}}" alt="">
                     </div>
-                    <h3>Monitor production with clear visibility on input usage, handling and transportation.</h3>
-                    <p>Once contracts are negotiated and signed, production commences and you can monitor your clusters
-                        of farms directly from your dashboard with reports on input usage, farm activities. expected
-                        yield, time to harvest and others.
-                    </p>
-                    <a href="#">Learn More</a>
-
+                    <h3>fund your account</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quaerat voluptatem veritatis est
+                        fugiat? Eveniet quam suscipit corporis, tempora optio praesentium quos eligendi quia omnis
+                        sequi? Vel totam delectus iusto.</p>
                 </div>
             </div>
         </div>
@@ -207,21 +202,60 @@
     <section id="for-farmers">
         <div class="container">
             <div>
-                <h2>Do you have knowledge on sustainable farming and can manage other farmers
-                </h2>
-                <p>Sign up to help other farmers and make money</p>
+                <h2>Sell your farm produce faster.</h2>
+                <p>Meet with companies for real deals.</p>
             </div>
             <div class="farmer-link">
                 <a href="#">
-                    Sign Up as an Agent.
+                    Sign Up as a farmer.
                 </a>
             </div>
         </div>
     </section>
 
+    <section id="benefits">
+        <h2>What will You <span style="color: #d3a310;">Benefit</span> from us?</h2>
+        <div class="container">
+
+
+            <div>
+                <img src="{{asset('land/assets/savings.svg')}}" alt="">
+                <p>Use our payment systems to easily put funds
+                    in your account to be use for input purchases
+                    for farmers. Our system allows you to calculate
+                    how much funds is needed for each purchase that
+                    you want to make for farmers</p>
+            </div>
+
+            <div>
+                <img src="{{asset('land/assets/analytics.svg')}}" alt="">
+                <p>Use our payment systems to easily put funds
+                    in your account to be use for input purchases
+                    for farmers. Our system allows you to calculate
+                    how much funds is needed for each purchase that
+                    you want to make for farmers</p>
+            </div>
+
+            <div>
+                <img src="{{asset('land/assets/advertising.svg')}}" alt="">
+                <p>Use our payment systems to easily put funds
+                    in your account to be use for input purchases
+                    for farmers. Our system allows you to calculate
+                    how much funds is needed for each purchase that
+                    you want to make for farmers</p>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+
+
+
 
     <section class="value-prop">
-        <h2>Our Superior Offering To Every Agro-Processing and Food Company</h2>
+        <!-- <div class="heading"> -->
+        <h2>Our Value Proposition</h2>
+        <!-- </div> -->
 
         <div>
             <div class="value">
@@ -229,12 +263,12 @@
                     <img src="{{asset('land/img/Group 3.png')}}" alt="">
                 </div>
                 <div class="value-text">
-                    <h3>Source Quality Raw Material At The Lowest Prices</h3>
-                    <p>Get quality raw material supplies from farms for your production which begins with quality farm
-                        inputs that we have sourced from our multin-national industry partners and provide farmers. We
-                        facilitate mutually beneficial relationships between you and clusters of farmers that ensure a
-                        sustainable supply of quality raw materials..
-
+                    <h3>Agro-processing/Food and Beverage Co</h3>
+                    <h4>Quality raw materials from farms</h4>
+                    <p>Our goal is to get quality raw materials supplies from farms for your production which begins
+                        with quality farm inputs that you fininace for farmers.
+                        We facilitate mutaully beneficial relationship between you and clusters of farmers that
+                        ensure a sustainabale supply of quality raw materials to your factories.
                     </p>
                 </div>
             </div>
@@ -243,12 +277,12 @@
                     <img src="{{asset('land/img/Group 6.png')}}" alt="">
                 </div>
                 <div class="value-text">
-                    <h3>Integrate Sustainability and Traceability Into Your Supply Chain
-                    </h3>
-                    <p>Show your customers that you are sourcing raw materials from farms that grow produce with
-                        sustainable practices. We have trained our farmers on best sustainable farming practices and
-                        have set up quality assurance processes and a traceability system built on distributed ledger
-                        technology.
+                    <h3>Donors/Government/Social Lenders</h3>
+                    <h4>Make Visible Impact For Food Security</h4>
+                    <p>We provide financial technology and last mile distribution systems that enable you reach
+                        smallholder farmers with your interventions as we work together to make our farmers,
+                        communities and countries food secure. We also provide you with impact reports of your
+                        interventions.
                     </p>
                 </div>
             </div>
@@ -258,27 +292,26 @@
                     <img src="{{asset('land/img/Group 4.png')}}" alt="">
                 </div>
                 <div class="value-text">
-                    <h3>Get Easy and Well Priced Logistics Services For Your
-                    </h3>
-                    <p>We have partnerships with reputable logistics companies to provide transportation, warehousing
-                        and even cold cold chain storage services to move the raw materials from the farm to your
-                        warehouse or production site as the case may. And all along, we deploy technology for proper
-                        tracking and ensure traceability.
-                    </p>
+                    <h3>Agro-Input Dealers/Distributors</h3>
+                    <h4>Reach A Wide Network Of Customers</h4>
+                    <p>We provide access to a growing wide network of farmers (buyers) and their associations with
+                        opportunities for repeatable sales. We are your partners for reaching smallholder farmers
+                        wherever they are. We also provide sales forecast for the season so you can stock your shops
+                        ahead. </p>
                 </div>
             </div>
             <div class="value">
                 <div class="value-img">
-                    <img src="{{asset('land/img//Group 5.png')}}" alt="">
+                    <img src="{{asset('land/img/Group 5.png')}}" alt="">
                 </div>
                 <div class="value-text">
-                    <h3>Make Visible Impact For Food Security
-                    </h3>
-                    <p>Our platform helps you make visible impact on the lives of rural farmers and contribute to the
-                        social and economic development of our country as we work together to make our farmers,
-                        communities and countries food secure. We also provide you with impact reports of your
-                        procurement activities.
+                    <h3>Farmers/Farmers Associations</h3>
+                    <h4>Get Easy Financing For Your Farm Operations
 
+                    </h4>
+                    <p>We provide unparalleled access to formal markets with finance for your farm production even
+                        before you start planting. We support farmers all the way from planning the season till your
+                        produce is sold after harvest. So, you should recommend us to your outgrower schemes.
                     </p>
                 </div>
             </div>
@@ -289,12 +322,12 @@
     <section class="sponsors">
         <hr>
         <h2>Industry Partners: </h2>
-        <div class="carousel" data-flickity='{ "autoPlay": true, "wrapAround": true }'>
-            <img src="{{asset('land/assets/dupont-pioneer-vector-logo.png')}}" class="carousel-cell">
-            <img src="{{asset('land/assets/Ecobank_logo.png')}}" class="carousel-cell">
-            <img src="{{asset('land/assets/Syngenta_logo.png')}}" class="carousel-cell">
-            <img src="{{asset('land/assets/agra-logo.jpg')}}" class="carousel-cell">
-            <img src="{{asset('land/assets/oysadep.jpg')}}" class="carousel-cell">
+        <div class="carousel" data-flickity='{ "autoPlay": true }'>
+            <img src="{{asset('land/img/british.png')}}" class="carousel-cell">
+            <img src="{{asset('land/img/inc.png')}}" class="carousel-cell">
+            <img src="{{asset('land/img/british.png')}}" class="carousel-cell">
+            <img src="{{asset('land/img/inc.png')}}" class="carousel-cell">
+            <img src="{{asset('land/img/british.png')}}" class="carousel-cell">
             <img src="{{asset('land/img/inc.png')}}" class="carousel-cell">
         </div>
 
@@ -306,16 +339,10 @@
         <div class="container">
             <div>
                 <h4>FarmCorps</h4>
-                <ul class="footer-links">
-                    <li><a href="#">Home</a></li>
-
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-
-                    <li><a href="#">Blog </a></li>
-                    <li><a href="#">Agent</a></li>
-
-
+                <ul>
+                    <li><i class="fa fa-phone"></i>+234-90-1670-9230</li>
+                    <li><i class="fa fa-map-marker"></i>5, Emina Crescent off Toyin Street, Ikeja, Lagos, Nigeria </li>
+                    <li><i class="fa fa-envelope"></i>info@farmcorps.net</li>
                 </ul>
             </div>
             <div class="subscribe">
@@ -342,8 +369,6 @@
                 </div>
             </div>
         </div>
-
-        <img src="{{asset('land/assets/logo.PNG')}}" style="height: 50px; margin: auto; display: block;" alt="">
     </footer>
 </body>
 <script src="{{asset('land/js/index.js')}}"></script>

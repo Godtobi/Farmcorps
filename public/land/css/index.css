@@ -1,319 +1,82 @@
-:root {
-  --main-color: #009245;
-  --main-text-color: #424242;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  margin: 0;
-  font-size: 1rem;
-  font-size: 14px;
-  line-height: 1.5;
-  font-family: 'Raleway', sans-serif;
-  color: var(--main-text-color);
-  overflow-x: hidden;
-  /* background: repeating-linear-gradient(180deg,
-      #ccc 0px, #fff 1px); */
-  background: #ffffff;
-  /* background: #aaa; */
-}
-
-
-.nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 3;
-  height: 70px;
-  background: #fff;
-  box-shadow: 0 3px 5px #444
-}
-
-.nav div.container {
-  /* background: inherit; */
-  /* border: 1px solid firebrick; */
-  height: 100%;
-  max-width: 100%;
-  width: 90%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav div.container .auth,
-.nav div.container .nav-links {
-  /* display: ; */
-}
-
-
-.brand {
-  display: inline-block;
-  height: 50px;
-  margin-top: auto;
-  margin-bottom: auto;
-  /* margin-top: 5px; */
-}
-
-.navigation {
-  /* width: 80%; */
-}
-
-.auth {
-  display: inline-block;
-}
-
-.brand img {
-  height: 100%;
-}
-
-.nav-links {
-  display: inline-block;
-}
-
-.nav-item {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-.nav-item a {
-  text-decoration: none;
-  line-height: 50px;
-  /* because of the border-bottom: ; */
-  color: #111;
-  display: block;
-  height: 100%;
-  transition: all 0.5s;
-}
-
-.nav-item a:hover {
-  color: var(--main-color);
-  transition: all 0.5s;
-  font-weight: 700;
-}
-
-.sign-btn {
-  display: inline-block;
-  font-weight: bold;
-  background-color: #17a668;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 7px;
-  border-radius: 5px;
-}
-
-.sign-btn:nth-child(1):hover {
-	transform: translateY(-2px);
-  background-color: #fff;
-  color: #009245;
-  box-shadow: 0px 3px 9px 0 rgba(00, 00, 00, 0.2);
-  transition: all 0.3s;
-}
-
-.sign-btn:nth-child(2) {
-  background-color: transparent;
-  background-color: #f5fbff;
-  margin-left: 5px;
-  color: #0095ff;
-  border-radius: 5px;
-  transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.sign-btn:nth-child(2):hover {
-  transform: translateY(-2px);
-  background-color: #fff;
-  box-shadow: 0px 3px 9px 0 rgba(00, 00, 00, 0.2);
-  transition: all 0.3s;
-}
-
-.mobile-nav {
-  padding-bottom: 100px;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  width: 100%;
-  background-color: black;
-  background: #fff;
-  /* display: none; */
-  transform: translateY(-1000px);
-  transition: all 0.5s;
-}
-
-.mobile-nav .brand {
-  margin: 0;
-}
-
-.mobile-nav .nav-links {
-  margin-top: 60px;
-  display: block;
-  width: 100%;
-  padding: 0;
-  text-align: center;
-}
-
-.mobile-nav .nav-links .nav-item {
-  display: block;
-  width: 100%;
-  margin: 0;
-  border: 0;
-}
-
-
-
-.mobile-nav .nav-item:hover {
-  background-color: #17a668;
-}
-
-
-.mobile-nav .nav-item a:hover {
-  color: var(--main-color);
-  border-bottom: none;
-  transition: all 0.2s;
-  font-weight: 700;
-}
-
-.mobile-nav .nav-item a {
-  color: #117938;
-}
-
-.mobile-nav .nav-item:hover a {
-  color: #fff;
-}
-
-.mobile-nav .auth {
-  margin-top: 60px;
-  width: 100%;
-  text-align: center;
-}
-
-.mobile-nav .auth .sign-btn {
-  display: block;
-  padding: 15px 0px;
-  max-width: 150px;
-  margin: auto;
-  margin-bottom: 10px;
-  transition: all 0.3s;
-
-}
-
-.mobile-nav .auth .sign-btn:hover {
-  font-weight: bold;
-  transition: all 0.3s;
-  transform: scale(1.1);
-}
-
-.mobile-nav .auth .sign-btn:nth-child(2):hover {
-  /* border: 1px solid #111; */
-  /* background-color: red; */
-  transform: translateY(5px);
-}
-
 #for-farmers {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  /* background-image: url(../assets/backstuff.svg); */
   background-image: url(../img/backstuff.png);
   background-repeat: no-repeat;
   height: 250px;
   background-size: cover;
-  color: #fff;
-  /* border: 1px solid red; */
+  color: #fff
 }
 
 #for-farmers .container {
-  /* width: 400px; */
-  width: 90%;
-  /* margin: auto; */
-  /* background-color: rebeccapurple; */
+  width: 90%
 }
 
 #for-farmers .farmer-link {
   float: right;
   margin-top: 20px;
-  width: 200px;
-  /* border: 1px solid red; */
+  width: 200px
 }
 
-#for-farmers .container .farmer-link a{
+#for-farmers .container .farmer-link a {
   text-align: center;
   display: block;
   height: 100%;
-    text-decoration: none;
-    color: #009245;
-    background-color: #fff;
-    padding: 8px;
-    border-radius: 20px;
+  text-decoration: none;
+  color: #009245;
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 20px
 }
 
-#for-farmers .container .farmer-link a:hover {
-    color: #fff;
-    background-color:  #009245;
-}
-
-/*how it works*/
 #how-it-works {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 60px
 }
 
 #how-it-works .container {
   width: 90%;
-  margin: auto;
+  margin: auto
 }
 
 #how-it-works .how {
   margin-top: 80px;
-  height: 300px;
+  min-height: 300px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  overflow: hidden;
+  overflow: hidden
 }
 
 #how-it-works h2 {
   text-align: center;
   font-size: 35px;
-  color: #17a668;
+  color: #17a668
 }
 
 .how h2 {
   font-size: 30px;
   text-align: center;
-  display: inline-block;
+  display: inline-block
 }
 
 .how img {
   display: inline-block;
   width: 30%;
-  /* height: 100%; */
   transform: scale(2);
-  background-color: transparent;
-  /* overflow: hidden; */
+  background-color: transparent
 }
 
 .how .video {
   display: inline-block;
   width: 40%;
-  position: relative;
+  position: relative
 }
 
 .how .video:hover .fa-stack {
-  display: block;
+  display: block
 }
 
 .how .fa-stack {
@@ -324,13 +87,12 @@ body {
   top: 50%;
   left: 50%;
   color: red;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
 }
 
 .icon-background2 {
-  color: white;
+  color: #fff
 }
-
 
 #how-it-works .container .how-cards {
   margin-top: 30px;
@@ -342,21 +104,25 @@ body {
 .how-cards .card {
   margin-top: 20px;
   width: 60%;
-  max-width: 270px;
+  max-width: 350px;
   text-align: center;
   padding: 2rem;
-  background: #fff;
-  box-shadow: 0px 3px 10px rgba(00, 00, 00, 0.4);
+  /* background: #fff; */
+  /* background-color: greenyellow; */
+  color: #191919;
+  box-shadow: 0 3px 10px rgba(00, 00, 00, .4);
   border-radius: 6px;
-  /* max-height: 400px; */
-  /* margin: auto; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 500px;
+  /* min-height: 500px; */
 }
 
-
-
 .how-cards .card img {
-  margin-top: 10px;
-  height: 100px;
+  /* margin-bottom: 30px; */
+  height: 100px
 }
 
 .how-cards h2 {
@@ -365,74 +131,74 @@ body {
   width: 50px;
   line-height: 40px;
   font-size: 30px;
-  margin: auto;
+  /* margin: auto; */
   float: right;
-  border: 3px solid #009245;
+  border: 3px solid #009245
 }
 
 .how-cards .card h3 {
   color: #009245;
   border-radius: 50%;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px */
 }
 
-.how-it-works .card p {
-  margin-top: 10px;
+.how-cards .card p {
+  /* margin-top: 10px; */
+  /* margin-bottom: 30px */
 }
 
+.how-cards .card a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 0;
+  background-color: #00d455;
+  transition: all .3s;
+  margin-top: 30px;
+}
 
+.how-cards .card a:hover {
+  background-color: #fff;
+  color: #00d455;
+  box-shadow: 0 3px 8px #ccc
+}
 
-/* form modal */
-/* The Modal (background) */
 .modal {
   display: none;
-  /* Hidden by default */
   position: fixed;
-  /* Stay in place */
   z-index: 4;
-  /* Sit on top */
   left: 0;
   top: 0;
   width: 100%;
-  /* Full width */
   height: 100%;
-  /* Full height */
-  /* height: 800px; */
   overflow: auto;
-  /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0);
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.9);
-  /* Black w/ opacity */
+  background-color: #000;
+  background-color: rgba(0, 0, 0, .9)
 }
 
-/* Modal Content/Box */
 .modal-content {
   background-color: #fff;
   margin: 2.5% auto;
-  /* 15% from the top and centered */
   padding: 0 40px;
   border: 1px solid #888;
   width: 80%;
-  /* Could be more or less, depending on screen size */
   display: flex;
   flex-wrap: wrap;
   padding-top: 50px;
-  min-height: 90vh;
+  min-height: 90vh
 }
-
 
 #form-container {
   display: inline-block;
   width: 45%;
-  margin-right: auto;
-  /* margin: auto; */
-  /* padding: 20px; */
+  margin-right: auto
 }
 
 #form-container form {
   width: 100%;
-  text-align: center;
+  text-align: center
 }
 
 #form-container form div {
@@ -440,17 +206,17 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 10px;
-  height: 35px;
+  height: 35px
 }
 
 #form-container form span {
-  color: red;
+  color: red
 }
 
 #form-container form label {
-  font-weight: bold;
+  font-weight: 700;
   width: 30%;
-  text-align: left;
+  text-align: left
 }
 
 #form-container form input {
@@ -459,101 +225,86 @@ body {
   width: 65%;
   border: 0;
   background-color: #eee;
-  outline: none;
+  outline: 0
 }
 
 #form-container div.text-area {
-  height: 80px;
+  height: 80px
 }
 
 #form-container form textarea {
   background-color: #eee;
-  outline: none;
+  outline: 0;
   width: 65%;
   height: 100%;
-  border: none;
+  border: none
 }
-
-
 
 #form-container form div.checkbox {
-    height: 20px;
-    /* width: 80%; */
-    /* display: block; */
-    justify-content: flex-start;
-  }
-  
-  #form-container form div.checkbox input {
-    line-height: 20px;
-  width: 15px;
-  margin-right: 50px;
+  height: 20px;
+  justify-content: flex-start
 }
 
-
+#form-container form div.checkbox input {
+  line-height: 20px;
+  width: 15px;
+  margin-right: 50px
+}
 
 #form-container form div.checkbox label {
-  /* width: 100%; */
-  width: fit-content;
+  width: fit-content
 }
 
-#form-container form input[type='submit'] {
+#form-container form input[type=submit] {
   background-color: #117938;
   text-align: center;
   color: #fff;
   padding: 10px 0;
   width: 150px;
-  margin-top: 20px;
+  margin-top: 20px
 }
 
 #enquiry {
   display: inline-block;
-  width: 45%;
-  /* background-color: brown; */
+  width: 45%
 }
 
 #enquiry .enq-img {
   height: 250px;
   width: 100%;
-  background-image: url(../img/agri.jpeg);
-  background-size: cover;
+  background-image: url(../img/africa-manager.jpg);
+  background-size: cover
 }
 
 #enquiry .text {
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 16px
 }
 
-/* The Close Button */
 .close {
   color: #aaa;
   float: right;
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 700
 }
 
-.close:hover,
-.close:focus {
-  color: black;
+.close:focus,
+.close:hover {
+  color: #000;
   text-decoration: none;
-  cursor: pointer;
+  cursor: pointer
 }
 
-
-
-/* benefits */
 #benefits {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 60px
 }
-
 
 #benefits h2 {
-  /* margin-top: 30px; */
   text-align: center;
   color: var(--main-color);
-  font-size: 35px;
+  font-size: 35px
 }
-
 
 #benefits .container {
   width: 80%;
@@ -561,7 +312,7 @@ body {
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between
 }
 
 #benefits .container div {
@@ -570,18 +321,17 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
   border-radius: 10px;
-  /* border: 1px solid #ddd; */
   width: 55%;
   margin: auto;
   max-width: 270px;
   letter-spacing: 1px;
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.5
 }
 
 #benefits .container div img {
   height: 100px;
-  margin-bottom: 15px;
+  margin-bottom: 15px
 }
 
 #benefits hr {
@@ -591,31 +341,27 @@ body {
   margin-top: 30px;
   color: var(--main-text-color);
   background-color: var(--main-text-color);
-  border-radius: 9px;
+  border-radius: 9px
 }
-
-/*farmers story*/
 
 #farmers-story {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 20px
 }
 
 #farmers-story h2 {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
-  /* color: var(--main-color); */
-  font-size: 35px;
+  font-size: 35px
 }
 
 #farmers-story .container {
   width: 80%;
-  /* max-width: 700px; */
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between
 }
 
 #farmers-story .container div {
@@ -626,14 +372,14 @@ body {
   text-align: center;
   padding: 2rem;
   border: 1px solid #ddd;
-  box-shadow: 0px 5px 15px #bbb;
-  transition: all 0.8s;
-  border-radius: 8px;
+  box-shadow: 0 5px 15px #bbb;
+  transition: all .8s;
+  border-radius: 8px
 }
 
 #farmers-story .container div:hover {
   transform: scale(1.1);
-  transition: all 0.8s;
+  transition: all .8s
 }
 
 #farmers-story .container div a {
@@ -642,28 +388,24 @@ body {
   background-color: var(--main-text-color);
   margin-top: 12px;
   display: inline-block;
-  padding: 5px 20px;
+  padding: 5px 20px
 }
 
 #farmers-story .container div a:hover {
   color: var(--main-text-color);
-  background-color: #bbb;
+  background-color: #bbb
 }
 
-/* Values */
-
 .value-prop {
-  background: linear-gradient(45deg, #000000, #191919, #000000, #191919);
+  background: linear-gradient(45deg, #000, #191919, #000, #191919);
   color: #fff;
   padding-top: 60px;
-  padding-bottom: 60px;
-
+  padding-bottom: 60px
 }
 
 .value-prop h2 {
-  text-align: center;
+  text-align: center
 }
-
 
 .value-prop>div {
   padding: 1rem;
@@ -672,7 +414,7 @@ body {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-around
 }
 
 .value {
@@ -680,58 +422,48 @@ body {
   display: flex;
   align-items: center;
   width: calc(100% / 2.2);
-  /* width: 40%; */
   min-width: 320px;
-  font-size: 0.9em;
-  margin-top: 40px;
+  font-size: .9em;
+  margin-top: 40px
 }
 
 .value-img {
-  height: 80px;
-  /* width: 100px; */
-  /* display: flex; */
-  /* align-items: center; */
-  /* display: none; */
+  height: 80px
 }
 
 .value-img img {
-  height: 100%;
-  /* width: auto; */
+  height: 100%
 }
 
 .value-text {
-  padding-left: 15px;
+  padding-left: 15px
 }
 
 .value-text h3,
 .value-text h4 {
-  margin-bottom: 8px;
+  margin-bottom: 8px
 }
 
-/* SPONSORS */
 .sponsors {
   padding-top: 40px;
   padding-bottom: 40px;
   width: 90%;
-  margin: auto;
+  margin: auto
 }
 
 .sponsors h2 {
   display: inline-block;
   width: 25%;
-  vertical-align: 50%;
+  vertical-align: 50%
 }
 
 .sponsors hr {
-  width: 150px;
+  width: 150px
 }
 
 .sponsors h2 {
-
-  font-size: 25px;
-  /* padding: 20px 0; */
+  font-size: 25px
 }
-
 
 .sponsors a {
   display: block;
@@ -746,58 +478,80 @@ body {
   color: #117938;
   height: 100%;
   font-weight: 600;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .sponsors a:hover {
   color: #fff;
-  /* border: 1px solid #fff; */
   background: #117938;
-  box-shadow: 0px 3px 10px #17a668;
+  box-shadow: 0 3px 10px #17a668
 }
 
-
-/* FOOTER*/
-
 footer {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background-color: #fff;
+  color: #000
 }
 
 footer hr {
   width: 90%;
   margin: auto;
   margin-bottom: 20px;
+  display: none
 }
 
 footer .container {
   width: 90%;
   margin: auto;
   line-height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 footer .container div {
   display: inline-block;
-  width: 45%;
+  width: 45%
+}
+
+footer .footer-links {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap
 }
 
 footer li {
+  width: 40%;
+  margin-right: 10px;
   list-style: none;
+  color: #000;
+  text-align: left
+}
+
+footer li a {
+  text-decoration: none;
+  color: #000
+}
+
+footer li a:hover {
+  text-decoration: underline
 }
 
 footer h4 {
   font-size: 18px;
+  color: #000
 }
 
 footer .subscribe {
-  text-align: right;
+  text-align: right
 }
 
 footer .subscribe form div {
   background-color: transparent;
   height: 40px;
   width: 300px;
-  position: relative;
-  /* border-radius: 8px; */
+  position: relative
 }
 
 footer .subscribe div input {
@@ -806,12 +560,12 @@ footer .subscribe div input {
   padding-left: 5px;
   padding-right: 90px;
   font-size: 16px;
-  outline: none;
+  outline: 0;
   height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 0
 }
 
 footer .subscribe div button {
@@ -821,263 +575,304 @@ footer .subscribe div button {
   right: 4px;
   padding: 2px 8px;
   border: none;
-  background-color: rgba(23, 23, 23, 0.7);
+  background-color: rgba(23, 23, 23, .7);
   color: #fff;
-  font-weight: bold;
+  font-weight: 700
 }
 
 footer .subscribe div button:hover {
   background-color: rgba(23, 23, 23, 1);
-  color: #ddd;
+  color: #ddd
 }
 
 footer .socials li {
   display: inline-block;
   text-decoration: none;
-  color: #777777;
+  color: #000;
   margin: 0 5px;
+  width: auto
 }
 
 footer .socials li a {
   color: inherit;
   display: block;
-  width: 100%;
+  width: 100%
 }
 
 footer i.fa {
-  /* width: 25px; */
   margin-right: 10px;
-  font-size: 24px;
+  font-size: 24px
 }
 
 footer .fa {
   transform: scale(1);
-  transition: all 0.3s;
+  transition: all .3s
 }
 
 footer .fa:hover {
   transform: scale(1.5);
-  transition: all 0.3s;
+  transition: all .3s
 }
 
 footer .fa-twitter:hover {
-  color: #00acee;
+  color: #00acee
 }
 
 footer .fa-facebook-official:hover {
-  color: #3b5998;
+  color: #3b5998
 }
 
 footer .fa-instagram:hover {
   background: linear-gradient(#833ab4, #fd1d1d, #fcb045);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent
 }
 
+@media (min-width:1200px) {
+  /* .how-cards .card {
+    margin-top: 20px;
+    width: 60%;
+    max-width: 360px;
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 3px 10px rgba(00, 00, 00, .4);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column
+  } */
 
-@media (max-width: 60em) {
+  .how-cards .card {
+    max-width: 360px;
+  }
+}
+
+@media (max-width:60em) {
   .mobile-nav.show {
     display: flex;
     overflow-x: scroll;
     transform: translateX(0);
-    transition: all 0.5s;
+    transition: all .5s
   }
 
   span.close {
     color: #117938;
     position: absolute;
     right: 10px;
-    top: 0px;
+    top: 0;
     font-size: 20px;
     line-height: 60px;
     font-weight: lighter;
-    color: gray;
+    color: gray
   }
-  
+
   span.close .fa {
     font-size: 30px;
     line-height: 60px;
     -webkit-text-stroke: 1px #fff;
-    color: grey;
+    color: grey
   }
 
   .nav div.container .auth,
-.nav div.container .nav-links {
-  display: none;
+  .nav div.container .nav-links {
+    display: none
+  }
+
+  #nav-icon1,
+  #nav-icon2,
+  #nav-icon3,
+  #nav-icon4 {
+    z-index: 10000;
+    width: 25px;
+    height: 18px;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer
+  }
+
+  #nav-icon1 span,
+  #nav-icon3 span,
+  #nav-icon4 span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #117938;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out
+  }
+
+  #nav-icon1 span:nth-child(1) {
+    top: 0
+  }
+
+  #nav-icon1 span:nth-child(2) {
+    top: 6px
+  }
+
+  #nav-icon1 span:nth-child(3) {
+    top: 12px
+  }
+
+  #nav-icon1.open span:nth-child(1) {
+    top: 10px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg)
+  }
+
+  #nav-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px
+  }
+
+  #nav-icon1.open span:nth-child(3) {
+    top: 10px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg)
+  }
+
+  /* .how-cards .card {
+    margin-top: 20px;
+    width: 60%;
+    max-width: 300px;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 3px 10px rgba(00, 00, 00, .4);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column
+  } */
 }
 
-#nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
-  z-index: 10000;
-  width: 25px;
-  height: 18px;
-  /* background-color: rgba(255, 0, 0, 0.5); */
-  position: absolute;
-  right: 10px;
-  /* line-height: 60px; */
-  top: 25px;
-  /* margin: 50px auto; */
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  cursor: pointer;
-}
+@media (max-width:48em) {
 
-#nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
-  display: block;
-  position: absolute;
-  height: 2px;
-  width: 100%;
-  background: #117938;
-  border-radius: 9px;
-  opacity: 1;
-  left: 0;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  -moz-transition: .25s ease-in-out;
-  -o-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
-}
+  .how-cards .card {
+    width: 70%;
+    max-width: 100%;
+  }
 
-#nav-icon1 span:nth-child(1) {
-  top: 0px;
-}
+  footer .container {
+    padding: 0;
+    text-align: center
+  }
 
-#nav-icon1 span:nth-child(2) {
-  top: 6px;
-}
+  footer .footer-links {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center
+  }
 
-#nav-icon1 span:nth-child(3) {
-  top: 12px;
-}
+  .footer-links li {
+    width: 45%;
+    margin-top: 10px;
+    text-align: center
+  }
 
-#nav-icon1.open span:nth-child(1) {
-  top: 10px;
-  -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
-  transform: rotate(135deg);
-}
-
-#nav-icon1.open span:nth-child(2) {
-  opacity: 0;
-  left: -60px;
-}
-
-#nav-icon1.open span:nth-child(3) {
-  top: 10px;
-  -webkit-transform: rotate(-135deg);
-  -moz-transform: rotate(-135deg);
-  -o-transform: rotate(-135deg);
-  transform: rotate(-135deg);
-}
-
-
-
-}
-
-@media (max-width: 48em) {
- 
- 
   .modal-content {
     padding-top: 10px;
     padding-bottom: 40px;
-    overflow-y: scroll;
+    overflow-y: scroll
   }
 
   #enquiry {
-    order: 1;
+    order: 1
   }
 
-#form-container {
-  order: 2;
-}
+  #form-container {
+    order: 2
+  }
 
-  #form-container, #enquiry {
+  #enquiry,
+  #form-container {
     margin-top: 20px;
-    width: 100%;
+    width: 100%
   }
 
   footer .container div {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 20px
   }
 
   footer .subscribe {
-    text-align: center;
+    text-align: center
   }
 }
 
+@media (max-width:36em) {
+  #for-farmers .container {
+    width: 100%
+  }
 
-
-@media (max-width: 36em) {
-
-#for-farmers .container {
-  width: 100%;
-}
-
-#for-farmers .container h2 {
-  font-size: 16px !important;
-  padding-left: 0 !important;
-    margin-bottom: 10px;
-}
+  #for-farmers .container h2 {
+    font-size: 16px !important;
+    padding-left: 0 !important;
+    margin-bottom: 10px
+  }
 
   h2 {
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 20px !important;
-    margin-bottom: 20px;
+    margin-bottom: 20px
   }
 
-hr {
-  width: 100% !important;
-}
+  hr {
+    width: 100% !important
+  }
 
-.sponsors h2 {
-  width: 100%;
-}
+  .sponsors h2 {
+    width: 100%
+  }
 
-.caurosel {
-  width: 100% !important;
-}
+  .caurosel {
+    width: 100% !important
+  }
 
-#how-it-works .container {
-  width: 95%;
-  padding-right: 0;
-  padding-left: 0;
-}
+  #how-it-works .container {
+    width: 95%;
+    padding-right: 0;
+    padding-left: 0
+  }
 
-.how-cards .card {
-  margin-top: 20px;
-  width: 100%;
-  max-width: 270px;
-  text-align: center;
-  padding: 1rem;
-  background: #fff;
-  box-shadow: 0px 3px 10px rgba(00, 00, 00, 0.4);
+  .how-cards .card {
+    max-width: 80%;
+    width: 80%;
+  }
 
-  border-radius: 6px;
-  /* max-height: 400px; */
-  /* margin: auto; */
-}
-
-#benefits .container {
-  width: 90%;
-}
+  #benefits .container {
+    width: 90%
+  }
 
   #benefits .container div {
     width: 100%;
-    max-width: 100%;
+    max-width: 100%
   }
 
   footer .subscribe form div {
-    width: 100%;
+    width: 100%
   }
 }
