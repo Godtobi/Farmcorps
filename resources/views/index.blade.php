@@ -27,13 +27,13 @@
                 <span></span>
             </div>
             <div class="container">
-                <a href="#" class="brand">
+                <a href="/" class="brand">
                     <img src="{{asset('land/assets/logo.PNG')}}" alt="Logo">
                 </a>
 
                 <ul class="nav-links">
                     <li class="nav-item">
-                        <a href="#">Home</a>
+                        <a href="/">Home</a>
                     </li>
 
                     <li class="nav-item">
@@ -49,7 +49,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="./pages/FarmCOpage.html">Agent</a>
+                        <a href="/farmer/signup">Agent</a>
                     </li>
                 </ul>
                 <div class="auth">
@@ -66,7 +66,7 @@
 
                 <ul class="nav-links">
                     <li class="nav-item">
-                        <a href="#">Home</a>
+                        <a href="/">Home</a>
                     </li>
 
                     <li class="nav-item">
@@ -81,7 +81,7 @@
                         <a href="#">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./pages/FarmCOpage.html">Agent</a>
+                        <a href="/farmer/signup">Agent</a>
                     </li>
                 </ul>
                 <div class="auth">
@@ -212,7 +212,7 @@
                 <p>Sign up to help other farmers and make money</p>
             </div>
             <div class="farmer-link">
-                <a href="#">
+                <a href="/agent/signup">
                     Sign Up as an Agent.
                 </a>
             </div>

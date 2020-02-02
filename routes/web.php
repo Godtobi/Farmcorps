@@ -26,6 +26,10 @@ Route::get('/dashboard', 'DashboardController@dashboard')->name('dashboard');
 Route::post('/newsletter', 'AppController@newsletter')->name('newsletter');
 Route::get('/newsletters', 'DashboardController@newsletters')->name('newsletters');
 Route::get('/sendpassword/{id}', 'UsersController@sendPassword')->name('sendpassword');
+Route::get('/farmer/signup', 'AppController@farmerSignup')->name('farmer.signup');
+Route::get('/agent/signup', 'AppController@agentSignup')->name('agent.signup');
+Route::post('/agent/store', 'AppController@storeAgent')->name('agent.store');
+
 
 Route::resource('users','UsersController');
 Route::resource('farmers','FarmerController');
