@@ -4,6 +4,7 @@
 
 <script src="{{asset('admin_asset/plugins/jquery/jquery.min.js')}}"></script>
 <!-- Bootstrap -->
+<script src="{{ asset('select2/js/select2.min.js') }}"></script>
 <script src="{{asset('admin_asset/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 <!-- overlayScrollbars -->
 <script src="{{asset('admin_asset/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js')}}"></script>

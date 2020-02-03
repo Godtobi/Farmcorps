@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddLocationToUsersTable extends Migration
+class AddSeedToUserTable extends Migration
 {
     /**
      * Run the migrations.
@@ -14,7 +14,7 @@ class AddLocationToUsersTable extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-           $table->string('location')->nullable();
+           $table->text('seed')->nullable();
         });
     }
 
@@ -26,7 +26,7 @@ class AddLocationToUsersTable extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn('location');
+            $table->dropColumn('seed');
         });
     }
 }

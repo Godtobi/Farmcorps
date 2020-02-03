@@ -13,6 +13,8 @@
         <div class="card-body box-profile">
             <div class="pull-right">
                 <a href="{{route('sendpassword',$user->id)}}" class="btn btn-success btn-md"><b>Send Password</b></a>
+
+                <a href="{{route('users.interview',$user->id)}}" class="btn btn-success btn-md"><b>Interview</b></a>
             </div>
             <div class="text-center">
 

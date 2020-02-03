@@ -31,6 +31,8 @@ Route::get('/agent/signup', 'AppController@agentSignup')->name('agent.signup');
 Route::post('/agent/store', 'AppController@storeAgent')->name('agent.store');
 
 
+Route::get('/user/{id}/interview', 'UsersController@interview')->name('users.interview');
+Route::post('/user/interview/save/{id}', 'UsersController@interviewSave')->name('interview.save');
 Route::resource('users','UsersController');
 Route::resource('farmers','FarmerController');
 

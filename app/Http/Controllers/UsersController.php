@@ -221,4 +221,37 @@ class UsersController extends Controller
         return redirect()->route('users.index');
 
     }
+
+    public function interview($id){
+        $user = User::find($id);
+        if (empty($user)) {
+            Alert::error('User not found');
+            return back();
+        }
+        return view('admin.users.interview',compact('user','id'));
+    }
+
+    public function interviewSave($id){
+       $data = request()->validate([
+           'company'=>'required',
+           'role'=>'required',
+           'seed'=>'required'
+       ]);
+
+        $user = User::find($id);
+        $user->company=$data['company'];
+        $user->seed=$data['seed'];
+        if($user->save()){
+            $user->assignRole($data['role']);
+            $pass=Str::random('8');
+            $data['name']=$user->name;
+            $data['password']=$pass;
+            $data['email']=$user->email;
+            Mail::to('oyebamijitobi@gmail.com')->send(new PasswordMail($data));
+            Alert::success('Success', 'Saved Successfully');
+            return back();
+        }
+        Alert::error('error','Something went wrong. Please try again later');
+        return back();
+    }
 }
