@@ -49,9 +49,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #444;
+    background-color: #000;
     z-index: 1;
-    opacity: .6
+    opacity: .5
 }
 
 .header-content {
@@ -110,6 +110,9 @@ body {
 }
 
 @media (max-width:36em) {
+
+    
+
     .header-content {
         width: 100%;
         padding-left: 1rem;
@@ -133,5 +136,11 @@ body {
         padding: 10px 5px;
         text-decoration: none;
         margin: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .bckgrd-vid {
+        display: none;
     }
 }

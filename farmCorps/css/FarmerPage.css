@@ -314,13 +314,15 @@ nav {
 }
 
 #how-it-works p img {
+    height: 250px;
+    width: 250px;
     border: 1px solid #ddd;
-    width: 100%;
+    /* width: 100%; */
     object-fit: contain;
     padding: 4px;
-    border-radius: 50%px;
+    border-radius: 8px;
     /* background-color: #eee; */
-    box-shadow: 0 3px 10px #000;
+    /* box-shadow: 0 3px 10px #000; */
     margin-top: 10px;
 }
 
