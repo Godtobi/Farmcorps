@@ -58,7 +58,7 @@ body {
     width: 70%;
     padding-left: 4rem;
     z-index: 2;
-    text-align: inherit
+    text-align: left
 }
 
 .header-content h1 {
@@ -85,7 +85,8 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: .8rem 1rem;
-    text-decoration: none
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .header-content .btn:hover {
@@ -124,13 +125,13 @@ body {
     .header-content .btn {
         display: block;
         border-radius: 10px;
-        max-width: 250px;
+        max-width: 200px;
         background: #e48600;
         color: #fff;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 700;
-        padding: 1rem 2rem;
+        padding: 10px 5px;
         text-decoration: none;
-        margin: auto
+        margin: 0;
     }
 }
