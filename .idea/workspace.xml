@@ -2,124 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c5cade-69a9-472f-be73-c26d92a895ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/agent_signup2.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/index_f_2.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/Ecobank_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/Syngenta_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/advertising.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/agra-logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/analytics.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/appStore badge.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/atm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/backstuff.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/commission.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/contract.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/corn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/download-on-the-app-store-apple.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/dupont-pioneer-vector-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/file.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/formS.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/google-play-badge.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/google-play-badge.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/how-it-works-person.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/loginS.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/logo.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/money.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/oysadep.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/presentation.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/propositionBack.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/redeem-points.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/savings.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/solu-contracts.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/solu-dashboard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/solu-deliveries.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/solu-invoices.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/solu-notifications.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/svgRight.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/assets/web.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/FarmerPage.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/farmCO.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/flickity.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/HELP-US-OUT.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/less/animated.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/less/screen-reader.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/scss/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/scss/_screen-reader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/font-awesome-4.7.0/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/nav.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/css/video-background.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/Group 18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/Group 19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/Group 2 (1).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/Group 2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/Group 3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/Group 4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/Group 5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/Group 6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/africa-manager.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/agri.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/agricVid.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/backstuff.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/british.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/cropland-221016.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/farmer-six.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/fertilizer (2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/fertilizer (3).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/funds (1).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/funds green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/funds.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/handshake (1).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/hero.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/inc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/large-farm.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/logo.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/megaphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/notes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/order.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/pattern.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/send.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/img/sharing-file.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/js/farmerLogin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/js/nav.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/land/js/vue.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AppController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AppController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/layout/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/layout/app.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/agent_signup.blade.php" afterPath="$PROJECT_DIR$/resources/views/agent_signup.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
     </list>
     <ignored path="farmcorps.iws" />
@@ -140,7 +22,38 @@
     <favorites_list name="farmcorps" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agent_signup.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/agent_signup.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-595">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -260,6 +173,52 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="farmcorps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="farmcorps" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="farmcorps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="farmcorps" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="farmcorps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="farmcorps" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -356,18 +315,18 @@
       <workItem from="1579944750473" duration="20851000" />
       <workItem from="1580297786871" duration="629000" />
       <workItem from="1580473986188" duration="16313000" />
-      <workItem from="1581084091463" duration="4664000" />
+      <workItem from="1581084091463" duration="5315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110771000" />
+    <option name="totallyTimeSpent" value="111422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16691957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16691957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -626,7 +585,7 @@
         <state relative-caret-position="225">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
-            <element signature="e#40#67#0#PHP" expanded="true" />
+            <element signature="e#40#67#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -711,14 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" column="95" selection-start-line="34" selection-start-column="81" selection-end-line="34" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index_f.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -759,22 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/agent_signup.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="219" column="26" selection-start-line="219" selection-start-column="26" selection-end-line="219" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/agent_signup2.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1347">
@@ -803,6 +738,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/agent_signup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-595">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding />
         </state>
       </provider>

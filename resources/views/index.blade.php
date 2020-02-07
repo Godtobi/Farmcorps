@@ -49,7 +49,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="/farmer/signup">Agent</a>
+                        <a href="/agent/signup">Agent</a>
                     </li>
                 </ul>
                 <div class="auth">
@@ -81,7 +81,7 @@
                         <a href="#">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/farmer/signup">Agent</a>
+                        <a href="/agent/signup">Agent</a>
                     </li>
                 </ul>
                 <div class="auth">
@@ -217,7 +217,7 @@
                 <p>Sign up to help other farmers and make money</p>
             </div>
             <div class="farmer-link">
-                <a href="/">
+                <a href="/agent/signup">
                     Sign Up as an Agent.
                 </a>
             </div>
