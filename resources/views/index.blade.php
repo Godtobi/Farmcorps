@@ -27,7 +27,7 @@
                 <span></span>
             </div>
             <div class="container">
-                <a href="/" class="brand">
+                <a href="#" class="brand">
                     <img src="{{asset('land/assets/logo.PNG')}}" alt="Logo">
                 </a>
 
@@ -93,7 +93,7 @@
 
 
         <div class="fullscreen-video-wrap">
-            <video src="" autoplay="true" loop="true" muted></video>
+            <video class="bckgrd-vid" src="https://bit.ly/31xgfKd" autoplay="true" loop="true" muted></video>
             <!-- change video background source -->
         </div>
         <div class="header-overlay"></div>
@@ -147,8 +147,13 @@
             <div id="enquiry">
                 <div class="enq-img"></div>
                 <div class="text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident maiores, doloribus
-                        odit est, facilis autem ducimus, animi laudantium excepturi accusamus nemo a tempora optio!</p>
+                    <p>We are ready to answer all your questions about how FarmCorps can transform the way you buy, sell
+                        and store grain.
+                        For sales enquiries, please call
+                        ‍<a style="font-weight: bold; text-decoration: underline; color: #00d455;;"
+                            href="tel: (02) 8067 9089."> (02) 8067 9089 </a>
+                        Build long term relationship with smallholder farms
+                    </p>
                 </div>
             </div>
 
@@ -212,7 +217,7 @@
                 <p>Sign up to help other farmers and make money</p>
             </div>
             <div class="farmer-link">
-                <a href="/agent/signup">
+                <a href="/">
                     Sign Up as an Agent.
                 </a>
             </div>
@@ -269,7 +274,7 @@
             </div>
             <div class="value">
                 <div class="value-img">
-                    <img src="{{asset('land/img//Group 5.png')}}" alt="">
+                    <img src="./img//Group 5.png" alt="">
                 </div>
                 <div class="value-text">
                     <h3>Make Visible Impact For Food Security
@@ -328,7 +333,7 @@
                                         <strong>{{ $message }}</strong>
                                     </span>
                         @enderror
-                        <button type="submit">Subscribe</button>
+                        <button>Subscribe</button>
                     </div>
 
                 </form>

@@ -38,7 +38,19 @@ class AppController extends Controller
             'email'=>'required|unique:users',
             'location'=>'required',
             'password'=>'required|confirmed',
+            'location'=>'required',
+            'phone'=>'required',
+            'state'=>'required',
+            'lga'=>'required',
+            'town'=>'required',
+            'crop'=>'required',
+            'experience'=>'required',
+            'cert'=>'required',
+
         ]);
+
+
+
 
         $data['name'] = $data['first_name'].' '.$data['last_name'];
         $data['phone']=0;

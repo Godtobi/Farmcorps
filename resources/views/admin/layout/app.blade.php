@@ -55,5 +55,6 @@
 <!-- REQUIRED SCRIPTS -->
 <!-- jQuery -->
 @include('admin.layout.script')
+@yield('scripts')
 </body>
 </html>

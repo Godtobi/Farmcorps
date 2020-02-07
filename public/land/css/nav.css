@@ -38,7 +38,7 @@ body {
   margin: auto;
   display: flex;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
 }
 
 .brand {
@@ -189,6 +189,16 @@ body {
 }
 
 @media (max-width:60em) {
+  .nav div.container {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .brand {
+    margin-top: 4px;
+  }
+
+
   .mobile-nav.show {
     display: flex;
     overflow-x: scroll;
@@ -366,7 +376,7 @@ body {
   .how-cards .card {
     margin-top: 20px;
     width: 100%;
-    max-width: 270px;
+    max-width: 95%;
     text-align: center;
     padding: 1rem;
     background: #fff;
