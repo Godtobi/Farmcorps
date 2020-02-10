@@ -69,4 +69,8 @@ class AppController extends Controller
             return back();
         }
     }
+
+    public function showViews(){
+        return view('thename');
+    }
 }

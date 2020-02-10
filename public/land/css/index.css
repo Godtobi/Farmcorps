@@ -122,7 +122,9 @@
 
 .how-cards .card img {
   /* margin-bottom: 30px; */
-  height: 100px
+  height: 100px;
+  margin-top: 10px;
+  /* border: 1px solid red; */
 }
 
 .how-cards h2 {
@@ -131,20 +133,27 @@
   width: 50px;
   line-height: 40px;
   font-size: 30px;
-  /* margin: auto; */
-  float: right;
+  align-self: flex-end;
   border: 3px solid #009245
 }
 
 .how-cards .card h3 {
   color: #009245;
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  min-height: 70px;
+  /* border: 1px solid green; */
   /* margin-bottom: 10px */
 }
 
 .how-cards .card p {
-  /* margin-top: 10px; */
+  margin-top: 10px;
   /* margin-bottom: 30px */
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  /* border: 1px solid rebeccapurple; */
 }
 
 .how-cards .card a {

@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{asset('land/css/flickity.css')}}">
     <script src="{{asset('land/js/vue.js')}}"></script>
     <title>Farmcorps</title>
+    <link rel="icon" href="{{asset('land/assets/logo.PNG')}}">
 </head>
 
 <body>
@@ -147,13 +148,8 @@
             <div id="enquiry">
                 <div class="enq-img"></div>
                 <div class="text">
-                    <p>We are ready to answer all your questions about how FarmCorps can transform the way you buy, sell
-                        and store grain.
-                        For sales enquiries, please call
-                        ‍<a style="font-weight: bold; text-decoration: underline; color: #00d455;;"
-                            href="tel: (02) 8067 9089."> (02) 8067 9089 </a>
-                        Build long term relationship with smallholder farms
-                    </p>
+                    <p>We are ready to answer all your questions about how FarmCorps helps you to buy quality produce from farmers.
+</p>
                 </div>
             </div>
 
@@ -168,7 +164,7 @@
                 <div class="card">
                     <h2>1</h2>
                     <div style="clear: both;">
-                        <img src="{{asset('land/assets/atm.svg')}}" alt="">
+                        <img src="{{asset('land/assets/map.svg')}}" alt="">
                     </div>
                     <h3>Find cohort of producers around your location that grows your raw material</h3>
                     <p>Our platform helps you aggregate raw produce clusters of smallholder farmers within your value
@@ -179,7 +175,7 @@
                 <div class="card">
                     <h2>2</h2>
                     <div style="clear: both;">
-                        <img src="{{asset('land/assets/file.svg')}}" alt="">
+                        <img src="{{asset('land/assets/teamwork.svg')}}" alt="">
                     </div>
                     <h3>Initiate a production contract with them through our extension agents</h3>
                     <p>When you find clusters of smallholders that fulfils your demand, you then initiate a production
@@ -192,7 +188,7 @@
                 <div class="card">
                     <h2>3</h2>
                     <div style="clear: both;">
-                        <img src="{{asset('land/assets/money.svg')}}" alt="">
+                        <img src="{{asset('land/assets/track.svg')}}" alt="">
                     </div>
                     <h3>Monitor production with clear visibility on input usage, handling and transportation.</h3>
                     <p>Once contracts are negotiated and signed, production commences and you can monitor your clusters
@@ -301,6 +297,7 @@
             <img src="{{asset('land/assets/agra-logo.jpg')}}" class="carousel-cell">
             <img src="{{asset('land/assets/oysadep.jpg')}}" class="carousel-cell">
             <img src="{{asset('land/img/inc.png')}}" class="carousel-cell">
+            <img src="{{asset('land/assets/Yara_logo.png')}}" class="carousel-cell">
         </div>
 
 
