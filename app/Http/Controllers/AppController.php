@@ -26,7 +26,8 @@ class AppController extends Controller
         return view('farmcopage');
     }
 
-    public function AgentSignup(){
+
+    public function agentSignup(){
         return view('agent_signup');
     }
 

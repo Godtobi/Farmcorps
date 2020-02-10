@@ -1,0 +1,87 @@
+runtime: php
+env: flex
+
+runtime_config:
+  document_root: public
+
+# Ensure we skip ".env", which is only for local development
+skip_files:
+  - .env
+  - denv
+
+env_variables:
+  # Put production environment variables here.
+  APP_ENV: production
+  APP_LOG: errorlog
+  APP_KEY: base64:xyGMiRl2RfDpZuf5D48kZMVvoJL3r52wvDK9bDxtvf4=
+
+  APP_DEBUG : true # or false
+  STORAGE_DIR: /tmp
+
+  DB_CONNECTION: mysql
+  #CACHE_DRIVER: file
+  #SESSION_DRIVER: file
+  DB_HOST: localhost
+  DB_PORT: 3306
+  DB_DATABASE: farmcorps
+  DB_USERNAME: farmcorps
+  DB_PASSWORD: farmcorps
+  DB_SOCKET: /cloudsql/farmcorps-267614:us-central1:farmcorps
+  #DB_SOCKET: /cloudsql/farmcorps:us-central1:farmcorps
+
+
+  MAIL_DRIVER: smtp
+  MAIL_HOST: smtp.sendgrid.net
+  MAIL_PORT: 587
+  MAIL_USERNAME: tobi1000
+  MAIL_PASSWORD: tobi10000
+  MAIL_ENCRYPTION: tls
+  MAIL_FROM_NAME: Oyebamiji Oluwatobi
+  MAIL_FROM_ADDRESS: oyebamijitobi@gmail.com
+  SENDGRID_API_KEY: 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
+
+  #MAIL_DRIVER: smtp
+  #MAIL_HOST: smtp.gmail.com
+  #MAIL_PORT: 587
+  #MAIL_USERNAME: oyebamijitobi@gmail.com
+  #MAIL_PASSWORD: "gblcauvijrdacnxm"
+  #MAIL_ENCRYPTION: tls
+#  MAIL_PASSWORD: "gblcauvijrdacnxm"
+
+  RAVE_PUBLIC_KEY: FLWPUBK-70e135442ab05d5c276321dfbea3d818-X
+  RAVE_SECRET_KEY: FLWSECK-e7817f578a6dab7e349ee12a52f4d71f-X
+  RAVE_TITLE: "Farmcorps"
+  RAVE_ENVIRONMENT: "live"
+  RAVE_LOGO: "https://drive.google.com/open?id=1tjZXZ9SEbnr6pFhESDssHGZUEC2ypUzh"
+  RAVE_PREFIX: "rave"
+
+#  RAVE_PUBLIC_KEY: FLWPUBK-3de7d5149ebef54755bf13fd64935bc6-X
+#  RAVE_SECRET_KEY: FLWSECK-ee62af73503105d95c09767828db40ba-X
+#  RAVE_TITLE: "Farmcorps"
+#  RAVE_ENVIRONMENT: "staging"
+#  RAVE_LOGO: "https://drive.google.com/open?id=1tjZXZ9SEbnr6pFhESDssHGZUEC2ypUzh"
+#  RAVE_PREFIX: "rave"
+
+  TWILIO_SID: ACacaa2525a3b438920f3140299fd8d453
+  TWILIO_TOKEN: 4a120cd476591d4ac7f4e1030b721d67
+  TWILIO_FROM: +12055649458
+
+#  TWILIO_SID: ACe6c742c4c15235560a83b9b65c6a671e
+#  TWILIO_TOKEN: bb161f929dabdb8cbd2f6b549e9d5f59
+#  TWILIO_FROM: +12562535262
+
+  GOOGLE_CLIENT_ID : 830144796102-a96flj4ib1r6mer1n3m8pdehef5jsgnt.apps.googleusercontent.com
+  GOOGLE_CLIENT_SECRET : SXvpVds3_RPlzAk3iKBPVBvY
+  GOOGLE_REDIRECT:  https://farmcorps-portal.appspot.com/login/google/callback
+
+  LOG_DELETE:  true # this is a parameter added by us in the project .env file. You can add here any setting you would add to your .env file
+  GOOGLE_VISION_PROJECT_ID : farmcorps-portal
+  #GOOGLE_VISION_PROJECT_ID : farmcorps
+
+  GOOGLE_API_KEY: AIzaSyDzY9i8ApRT2A2Equ50-L7vvUO3Yma67Y0
+beta_settings:
+   # for Cloud SQL, set this value to the Cloud SQL connection name,
+   # e.g. "project:region:cloudsql-instance"
+   #cloud_sql_instances: "farmcorps:us-central1:farmcorps"
+   cloud_sql_instances: "farmcorps-267614:us-central1:farmcorps"
+

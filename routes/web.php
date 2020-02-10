@@ -15,7 +15,7 @@ if (env('APP_ENV') === 'production') {
     URL::forceScheme('http');
 }
 
-Route::get('/', function () { return view('index'); })->name('index');
+Route::get('/','HomeController@fix_index')->name('index');
 
 
 Auth::routes();

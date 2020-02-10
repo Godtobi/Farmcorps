@@ -254,4 +254,8 @@ class UsersController extends Controller
         Alert::error('error','Something went wrong. Please try again later');
         return back();
     }
+
+    public function fixRoute(Request $request){
+        return $request->user();
+    }
 }

@@ -11,7 +11,7 @@ class FarmerController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('auth')->except('create','store');
+        $this->middleware('auth')->except('create','store','index');
     }
 
     /**
@@ -21,7 +21,7 @@ class FarmerController extends Controller
      */
     public function index()
     {
-        //
+        return view('farmer');
     }
 
     /**
