@@ -88,8 +88,8 @@
     <section id="hero">
         <div class="container">
             <div class="hero-text">
-                <h1>AgriDigital for Farmers</h1>
-                <p>Get more control over your grain at harvest with all your transactions in one place.</p>
+                <h1>FarmCorps for Agro-Processing and Food/Beverage Manufacturers.</h1>
+                <p>Buy quality grains grown sustainably from smallholders </p>
                 <a href="#">Find Out More</a>
             </div>
             <div class="hero-img">
@@ -98,40 +98,6 @@
         </div>
     </section>
 
-    <section id="features">
-        <div class="container">
-            <div class="feat">
-                <div class="feature-text">
-                    <h2>Automate and validate contract</h2>
-                    <p>Automate your contracting with traders and storage operators to streamline the sale of your grain
-                        for better prices.</p>
-                </div>
-                <div class="feature-img">
-                    <img src="{{asset('land/assets/contract.png')}}" alt="">
-                </div>
-            </div>
-            <div class="feat">
-                <div class="feature-text">
-                    <h2>Automate and validate contract</h2>
-                    <p>Automate your contracting with traders and storage operators to streamline the sale of your grain
-                        for better prices.</p>
-                </div>
-                <div class="feature-img">
-                    <img src="{{asset('land/assets/contract.png')}}" alt="">
-                </div>
-            </div>
-            <div class="feat">
-                <div class="feature-text">
-                    <h2>Automate and validate contract</h2>
-                    <p>Automate your contracting with traders and storage operators to streamline the sale of your grain
-                        for better prices.</p>
-                </div>
-                <div class="feature-img">
-                    <img src="{{asset('land/assets/contract.png')}}" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
 
 
     <section id="myModal" class="modal">
@@ -139,8 +105,9 @@
         <!-- Modal content -->
         <span class="close">&times;</span>
         <div class="modal-content">
-            <img style="height: 30px; display: block; width: 100%; object-fit: scale-down;" src="{{asset('land/img/logo.PNG')}}"
-                alt="logo">
+            <img style="height: 50px; display: block; width: 100%; object-fit: scale-down;"
+                src="{{asset('land/img/logo.PNG')}}" alt="logo">
+            <h2>We're ready to help</h2>
             <div id="form-container">
                 <form action="{{route('users.store')}}" method="post">
                     @csrf
@@ -175,8 +142,9 @@
             <div id="enquiry">
                 <div class="enq-img"></div>
                 <div class="text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident maiores, doloribus
-                        odit est, facilis autem ducimus, animi laudantium excepturi accusamus nemo a tempora optio!</p>
+                    <p>We are ready to answer all your questions about how FarmCorps helps you to buy quality produce
+                        from farmers.
+                    </p>
                 </div>
             </div>
 
@@ -190,45 +158,66 @@
         <div class="container">
             <div class="why">
                 <img src="{{asset('land/assets/solu-contracts.png')}}" alt="">
-                <h2>Contracts</h2>
-                <p>Eliminate filing and lost paperwork with digital sales contracts and real time access to keep track
-                    of all contract quantities and status to minimise the risk of default and maximise your results.</p>
+                <h2>Easy Aggregation:
+                </h2>
+                <p>
+                    The starting point to sourcing quality agri-raw material is to use our web platform to find cohorts
+                    of smallholder farmers that are growing the raw materials that you need. We have taken the pain to
+                    collect all essential data such as to help you make decisions on sourcing effectively.
+
+                </p>
             </div>
             <div class="why">
                 <img src="{{asset('land/assets/solu-contracts.png')}}" alt="">
-                <h2>Contracts</h2>
-                <p>Eliminate filing and lost paperwork with digital sales contracts and real time access to keep track
-                    of all contract quantities and status to minimise the risk of default and maximise your results.</p>
+                <h2>Transparent Contracts
+                </h2>
+                <p>
+                    Our contracting process is straightforward and easy to use for you to quickly negotiate price and
+                    volume and then move on to production. Each farmer’s group has extension agents who mediate in the
+                    negotiation and finalising the contract agreements.
+                </p>
             </div>
             <div class="why">
                 <img src="{{asset('land/assets/solu-contracts.png')}}" alt="">
-                <h2>Contracts</h2>
-                <p>Eliminate filing and lost paperwork with digital sales contracts and real time access to keep track
-                    of all contract quantities and status to minimise the risk of default and maximise your results.</p>
+                <h2>Fair Pricing
+                </h2>
+                <p>
+                    We have built price prediction tools to help you in the negotiation and our extension agents help
+                    mediate that you get the best price on the market for the produce that you are sourcing. We ensure
+                    that farmers’ are also well-taken care of in our negotiation.
+                </p>
             </div>
             <div class="why">
                 <img src="{{asset('land/assets/solu-contracts.png')}}" alt="">
-                <h2>Contracts</h2>
-                <p>Eliminate filing and lost paperwork with digital sales contracts and real time access to keep track
-                    of all contract quantities and status to minimise the risk of default and maximise your results.</p>
+                <h2>Real-time Monitoring
+                </h2>
+                <p>
+                    We have built a network of extension agents and assign an optimum number of them to the farmers in
+                    your outgrower scheme to help deliver data-driven advisory services and provide real-time reports to
+                    ensure the farmers grow your produce sustainably and responsibly.
+                </p>
             </div>
             <div class="why">
                 <img src="{{asset('land/assets/solu-contracts.png')}}" alt="">
-                <h2>Contracts</h2>
-                <p>Eliminate filing and lost paperwork with digital sales contracts and real time access to keep track
-                    of all contract quantities and status to minimise the risk of default and maximise your results.</p>
+                <h2>Timely Deliveries
+                </h2>
+                <p>
+                    We help you organize the delivery of your produce to your factory using the best packaging materials
+                    with every batch of produce traceable with our produce provenance/traceability system.
+                </p>
             </div>
         </div>
     </section>
 
     <section id="attraction">
+        <h2>Why I Chose FarmCorps For Sourcing My Grains</h2>
         <div class="container">
-            <h2>
-                How AgriDigital transformed Tremlett Storage
-            </h2>
-            <p>"What attracted me to AgriDigital was the grower portal, where growers can see their deliveries on their
-                own, without me having to login and tell them. There was no other program on the market that could do
-                that."</p>
+            <p>“What we really like about FarmCorps that made us sign up to the platform is that it helps us control the
+                quality of raw material that we buy from farmers. We ensure the quality of seed, and other input used
+                and more especially, we know if this was produced sustainably or not.”
+            </p>
+            <p class="person"> - Kunle Edun, Sebad Foods.
+ </p>
         </div>
     </section>
 
@@ -236,8 +225,10 @@
         <div class="container">
             <div class="started-txt">
                 <h3>Get started!</h3>
-                <p>Find out how AgriDigital can transform the way you buy, sell and store grain.</p>
-                <a href="">Book A Demo</a>
+                <p>We are ready to answer all your questions about how FarmCorps helps you to buy quality produce from
+                    farmers.
+                </p>
+                <a onclick="openModal()">Book A Demo</a>
             </div>
         </div>
     </section>
@@ -264,8 +255,8 @@
                         <input name="email" type="text">
                         @error('email')
                         <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
+                            <strong>{{ $message }}</strong>
+                        </span>
                         @enderror
                         <button>Subscribe</button>
                     </div>
@@ -288,4 +279,5 @@
     <script src="{{asset('land/js/index.js')}}"></script>
 </body>
 @include('sweetalert::alert')
+
 </html>

@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="{{asset('land/css/FarmerPage.css')}}">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
     <script src="{{asset('land/js/farmerLogin.js')}}"></script>
-    <title>FarmCorps || Farmer</title>
+    <link rel="shortcut icon" href="{{asset('land/assets/favicon.ico')}}" type="image/x-icon">
+    <title>FarmCorps for Farm Agents</title>
 </head>
 
 <body onscroll="changeHeaderColor()">
@@ -29,7 +30,7 @@
                 </p>
             </div>
             <div class="form" id="form">
-                <h2>Signup as an Agent below</h2>
+                <h2>Signup as an <span style="color: #d9e021">Agent</span> below</h2>
                 <p>...</p>
                 <form action="{{route('agent.store')}}" method="post">
                     @csrf

@@ -39,4 +39,4 @@ Route::resource('farmers','FarmerController');
 Route::get('/map', 'DashboardController@map')->name('map');
 Route::get('/mapped', 'DashboardController@map_details')->name('mapped');
 
-Route::get('/thestuff', 'AppController@showViews');
+Route::get('/foodco', 'AppController@foodCompany');

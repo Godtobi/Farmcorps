@@ -14,8 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('land/css/flickity.css')}}">
     <script src="{{asset('land/js/vue.js')}}"></script>
-    <title>Farmcorps</title>
-    <link rel="icon" href="{{asset('land/assets/logo.PNG')}}">
+    <link rel="shortcut icon" href="{{asset('land/assets/favicon.ico')}}" type="image/x-icon">
+    <title>Farmcorps || Home Page</title>
 </head>
 
 <body>
@@ -112,8 +112,9 @@
 
         <span class="close">&times;</span>
         <div class="modal-content">
-            <img style="height: 30px; display: block; width: 100%; object-fit: scale-down;" src="{{asset('land/img/logo.PNG')}}"
+            <img style="height: 50px; display: block; width: 100%; object-fit: scale-down;" src="{{asset('land/img/logo.PNG')}}"
                 alt="logo">
+                <h2>We're ready to help</h2>
             <div id="form-container">
                 <form action="{{route('users.store')}}" method="post">
                     @csrf
@@ -270,7 +271,7 @@
             </div>
             <div class="value">
                 <div class="value-img">
-                    <img src="./img//Group 5.png" alt="">
+                    <img src="{{asset('land/img/Group 5.png')}}" alt="">
                 </div>
                 <div class="value-text">
                     <h3>Make Visible Impact For Food Security
