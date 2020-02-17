@@ -22,7 +22,7 @@ class AppController extends Controller
         return back();
     }
 
-    public function farmerSignup(){
+    public function foodCompany(){
         return view('farmcopage');
     }
 
