@@ -85,6 +85,39 @@
                     <a href="#" class="nav-link">
                         <i class="nav-icon  fas fa-users"></i>
                         <p>
+                            Transfers
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="{{route('farmer.donate')}}" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Donate</p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="nav-link active">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Retrieve Code</p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="{{route('payment.index')}}" class="nav-link active">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Payment</p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon  fas fa-users"></i>
+                        <p>
                             Map
                             <i class="right fas fa-angle-left"></i>
                         </p>

@@ -28,6 +28,6 @@ class HomeController extends Controller
 
     public function fix_index()
     {
-        return view('index');
+        return view('homepage');
     }
 }

@@ -108,4 +108,8 @@ class FarmerController extends Controller
     {
         //
     }
+
+    public function donate(){
+        return view('admin.transfers.donate');
+    }
 }

@@ -171,7 +171,7 @@
                     <p>Our platform helps you aggregate raw produce clusters of smallholder farmers within your value
                         chain that are using sustainable practices to grow quality produce with capacity to meet your
                         demand.</p>
-                    <a href="#">Learn More</a>
+                    <a href="/foodcompany">Learn More</a>
                 </div>
                 <div class="card">
                     <h2>2</h2>
@@ -183,7 +183,7 @@
                         contract with these clusters. Our extension agents help mediate the process of fair contract
                         negotiation between you and the farmers.
                     </p>
-                    <a href="#">Learn More</a>
+                    <a href="/foodcompany">Learn More</a>
 
                 </div>
                 <div class="card">
@@ -196,7 +196,7 @@
                         of farms directly from your dashboard with reports on input usage, farm activities. expected
                         yield, time to harvest and others.
                     </p>
-                    <a href="#">Learn More</a>
+                    <a href="/foodcompany">Learn More</a>
 
                 </div>
             </div>

@@ -35,8 +35,15 @@ Route::get('/user/{id}/interview', 'UsersController@interview')->name('users.int
 Route::post('/user/interview/save/{id}', 'UsersController@interviewSave')->name('interview.save');
 Route::resource('users','UsersController');
 Route::resource('farmers','FarmerController');
+Route::get('/farmer/donate', 'FarmerController@donate')->name('farmer.donate');
+
+//Payments
+Route::get('/payment', 'PaymentController@index')->name('payment.index');
+Route::post('/payment/completed/', 'PaymentController@completedPayment')->name('payment.complete');
+Route::post('/payment/store', 'PaymentController@storePayment')->name('payment.store');
+
 
 Route::get('/map', 'DashboardController@map')->name('map');
 Route::get('/mapped', 'DashboardController@map_details')->name('mapped');
 
-Route::get('/foodco', 'AppController@foodCompany');
+Route::get('/foodcompany', 'AppController@foodCompany');

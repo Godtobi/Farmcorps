@@ -12,7 +12,8 @@
 <script src="{{asset('admin_asset/dist/js/adminlte.js')}}"></script>
 <script src="{{asset('admin_asset/dist/js/table.js')}}"></script>
 @include('sweetalert::alert')
-
+{{--<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>--}}
+{{--<script src="https://cdn.jsdelivr.net/npm/promise-polyfill9/dist/polyfill.js"></script>--}}
 
 <!-- OPTIONAL SCRIPTS -->
 <script src="{{asset('admin_asset/dist/js/demo.js')}}"></script>
