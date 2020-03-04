@@ -9,9 +9,9 @@ body {
 }
 
 .carousel {
-  display: inline-block;
+  display: block;
   background: #fff;
-  width: 70%;
+  width: 90%;
   margin: auto;
   height: 100px;
 }
