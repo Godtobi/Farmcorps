@@ -2,170 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c5cade-69a9-472f-be73-c26d92a895ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/02 20 19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/Freshmarte.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/blog04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/farmcorps-01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/farmer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/farmer2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/fh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/home-background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/icons/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/life.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/lifee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/lifer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/logo-alt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/m.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/mm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/mmm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/tobi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/assets/abominable_2019_animation_4k_8k_3-7680x4320.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/assets/beans.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/assets/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/assets/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/assets/maize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/assets/soya.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/assets/wheat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/assets/woman.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/farm_uploads/maize.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/farm_uploads/millet.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/farm_uploads/sorghum.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/get_started/assets/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/get_started/assets/logo.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/get_started/assets/woman.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/reg-farmers/assets/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/reg-farmers/assets/logo.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/reg-farmers/assets/square.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/heroku_database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/css/util.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/img/farmcorps.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/js/google-map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/animate/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/animsition/css/animsition.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/animsition/css/animsition.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/animsition/js/animsition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/animsition/js/animsition.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/bootstrap/css/bootstrap-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/bootstrap/css/bootstrap-grid.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/bootstrap/css/bootstrap-grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/bootstrap/css/bootstrap-grid.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/bootstrap/css/bootstrap-reboot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/bootstrap/css/bootstrap-reboot.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/bootstrap/css/bootstrap-reboot.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/bootstrap/css/bootstrap-reboot.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/bootstrap/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/bootstrap/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/bootstrap/js/popper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/bootstrap/js/popper.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/bootstrap/js/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/countdowntime/countdowntime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/css-hamburgers/hamburgers.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/css-hamburgers/hamburgers.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/daterangepicker/daterangepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/daterangepicker/daterangepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/daterangepicker/moment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/daterangepicker/moment.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/jquery/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/perfect-scrollbar/perfect-scrollbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/perfect-scrollbar/perfect-scrollbar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/select2/select2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/select2/select2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/select2/select2.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blogasset/vendor/select2/select2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/assets/house.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/assets/rice.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/js/dashboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/js/getStarted.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/js/nav.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/js/yourFarms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/styles/completeProcess.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/styles/dashboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/styles/getStarted.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/styles/nav.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dash/styles/yourFarms.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/get_started/js/FarmCorpsNav.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/get_started/js/getStarted.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/get_started/styles/FarmCorpsNav.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/get_started/styles/completeProcess.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/get_started/styles/getStarted.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/land/css/contact.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/reg-farmers/css/farmersReg.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/reg-farmers/css/farmersReg2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/agent/assign_farm.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/agent/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/agent/production.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/agent/showRequest.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/farms/dash.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/agent_signup_swap.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/blog/blog-post.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/blog/blog-post1.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/blog/blog-post2.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/blog/blog.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/completeProcess.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/dashboard/dashboard.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/dashboard/yourFarms.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/email/reg_farmers.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/farm_reg/SuccessPage.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/farm_reg/SuccessPage2.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/farm_reg/reg.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/farm_reg/reg2.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/farm_reg/reg_prev.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/farmers/farm/create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/getStarted_prev.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/index_fine.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layout/nav.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/sitemap.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/gcloud_database.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/web.config" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AppController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AppController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/FarmerController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/FarmerController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PaymentController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PaymentController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Farmer.php" afterPath="$PROJECT_DIR$/app/Models/Farmer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/User.php" afterPath="$PROJECT_DIR$/app/Models/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/filesystems.php" afterPath="$PROJECT_DIR$/config/filesystems.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2020_03_03_164545_create_transactions_table.php" afterPath="$PROJECT_DIR$/database/migrations/2020_03_03_164545_create_transactions_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/land/css/FarmerPage.css" afterPath="$PROJECT_DIR$/public/land/css/FarmerPage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/land/css/flickity.css" afterPath="$PROJECT_DIR$/public/land/css/flickity.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/land/css/index.css" afterPath="$PROJECT_DIR$/public/land/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/layout/aside.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/layout/aside.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/agent_signup.blade.php" afterPath="$PROJECT_DIR$/resources/views/agent_signup.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/email/password.blade.php" afterPath="$PROJECT_DIR$/resources/views/email/password.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/email/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/email/welcome.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/farmcopage.blade.php" afterPath="$PROJECT_DIR$/resources/views/farmcopage.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <ignored path="farmcorps.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -214,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -224,11 +62,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web.config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/web.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+            <state relative-caret-position="362">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -262,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/reg-farmers/css/farmersReg.css" />
         <option value="$PROJECT_DIR$/database/migrations/2020_03_19_080955_create_refferals_table.php" />
         <option value="$PROJECT_DIR$/resources/views/email/reg_farmers.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/Farmer.php" />
@@ -313,6 +160,7 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AppController.php" />
         <option value="$PROJECT_DIR$/resources/views/getStarted.blade.php" />
+        <option value="$PROJECT_DIR$/public/web.config" />
       </list>
     </option>
   </component>
@@ -387,39 +235,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="farmcorps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="farmcorps" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="farmcorps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="farmcorps" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,7 +246,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../units" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -563,18 +379,18 @@
       <workItem from="1588652883275" duration="506000" />
       <workItem from="1588755097385" duration="2399000" />
       <workItem from="1590738563314" duration="670000" />
-      <workItem from="1591519379481" duration="128000" />
+      <workItem from="1591519379481" duration="976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="368271000" />
+    <option name="totallyTimeSpent" value="369119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21832061" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21832061" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -630,13 +446,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/seeds/UserSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="40" column="55" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-612">
@@ -959,14 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/services.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -987,6 +788,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding />
         </state>
       </provider>
