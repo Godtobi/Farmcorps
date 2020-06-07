@@ -47,4 +47,11 @@ class User extends Authenticatable
     {
         return $this->belongsTo(Role::class, 'model_id');
     }
+
+    public function findfarm()
+    {
+        return $this->hasMany('App\Models\FindFarm');
+    }
+
+
 }

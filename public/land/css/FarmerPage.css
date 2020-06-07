@@ -1,7 +1,8 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
 }
 
 
@@ -24,63 +25,151 @@ body {
     background-color: #fff
 }
 
-header {
-    background-color: transparent;
-    height: 60px;
+
+.modal {
+    display: none;
     position: fixed;
-    top: 0;
+    z-index: 9995;
     left: 0;
-    right: 0;
+    top: 0;
     width: 100%;
-    max-width: 1440px;
-    margin: auto;
-    z-index: 100;
-    color: #fff;
-    transition: background 250ms ease-in-out
-}
-
-header.scrolled {
-    color: #424242;
+    height: 100%;
+    overflow: auto;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .9)
+  }
+  
+  .modal-content {
     background-color: #fff;
-    box-shadow: 0 0 30px #000
-}
-
-nav {
-    width: 90%;
-    max-width: 1440px;
-    margin: auto;
+    margin: 2.5% auto;
+    padding: 0 20px;
+    border: 1px solid #888;
+    width: 80%;
     display: flex;
-    align-items: center;
-    justify-content: space-between
-}
-
-.brand {
-    height: 60px;
-    margin-top: 0px;
-    display: inline-block
-}
-
-.brand img {
-    height: 100%
-}
-
-.nav-list {
-    list-style-type: none
-}
-
-.nav-item {
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 90vh
+  }
+  
+  .modal-content h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  #enquiry,
+  #form-container {
+    margin-bottom: 30px;
+    font-weight: bolder;
+  }
+  
+  #form-container {
+    display: inline-block;
+    width: 45%;
+    margin-right: auto
+  }
+  
+  #form-container form {
+    width: 100%;
+    text-align: center
+  }
+  
+  #form-container form div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: 35px
+  }
+  
+  #form-container form span {
+    color: red
+  }
+  
+  #form-container form label {
+    font-weight: 700;
+    width: 30%;
+    text-align: left
+  }
+  
+  #form-container form input {
+    padding: 0 14px;
+    height: 100%;
+    width: 65%;
+    border: 0;
+    background-color: #eee;
+    outline: 0
+  }
+  
+  #form-container div.text-area {
+    height: 80px
+  }
+  
+  #form-container form textarea {
+    background-color: #eee;
+    outline: 0;
+    width: 65%;
+    height: 100%;
+    border: none
+  }
+  
+  #form-container form div.checkbox {
+    height: 20px;
+    justify-content: flex-start
+  }
+  
+  #form-container form div.checkbox input {
+    line-height: 20px;
+    width: 15px;
+    margin-right: 50px
+  }
+  
+  #form-container form div.checkbox label {
+    width: fit-content
+  }
+  
+  #form-container form input[type=submit] {
+    background-color: #117938;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    width: 150px;
+    margin-top: 20px
+  }
+  
+  #enquiry {
+    display: inline-block;
+    width: 45%
+  }
+  
+  #enquiry .enq-img {
+    height: 250px;
+    width: 100%;
+    background-image: url(../img/africa-manager.jpg);
+    background-size: cover
+  }
+  
+  #enquiry .text {
+    margin-top: 10px;
+    font-size: 16px
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
     font-weight: 700
-}
-
-.nav-item a {
-    color: inherit;
-    font-size: 18px;
-    text-decoration: none
-}
-
-.nav-item a:hover {
-    color: #40df6d
-}
+  }
+  
+  .close:focus,
+  .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer
+  }
+  
 
 #hero {
     padding-top: 120px;
@@ -416,6 +505,28 @@ footer p a {
 }
 
 @media (max-width:48em) {
+    .modal-content {
+        padding-top: 10px;
+        padding-bottom: 40px;
+        overflow-y: scroll;
+      }
+    
+      #enquiry {
+        order: 1;
+      }
+    
+      #form-container {
+        order: 2;
+      }
+    
+      #form-container,
+      #enquiry {
+        margin-top: 20px;
+        width: 100%;
+      }
+    
+
+
     #hero {
         padding-bottom: 60px
     }

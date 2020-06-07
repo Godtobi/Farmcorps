@@ -36,19 +36,22 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="#">Contact</a>
+                        <a href="/contact">Contact</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#">Blog</a>
+                        <a href="/blog">Blog</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#">Agent</a>
+                        <a href="/farmers/register">Farmer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/agent/signup">Agent</a>
                     </li>
                 </ul>
                 <div class="auth">
-                    <a href="#" onclick="openModal()" class="sign-btn open-modal">Book A Demo</a>
+                    <a href="{{route('getstarted')}}" class="sign-btn open-modal">Get Started</a>>
                     <a href="/pages/login.html" class="sign-btn">Login</a>
                 </div>
             </div>
@@ -69,15 +72,18 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="#">Contact</a>
+                        <a href="/contact">Contact</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#">Agent</a>
+                        <a href="/farmers/register">Farmer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/agent/signup">Agent</a>
                     </li>
                 </ul>
                 <div class="auth">
-                    <a href="#" onclick="openModal()" class="sign-btn">Book A Demo</a>
+                    <a href="{{route('getstarted')}}" class="sign-btn open-modal">Get Started</a>
                     <a href="./pages/login.html" class="sign-btn">Login</a>
                 </div>
             </div>

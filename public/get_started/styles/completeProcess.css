@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.all .container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-wrapper {
+    max-width: 600px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 5px 20px -15px #000;
+}
+
+.form-wrapper h2 {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.form-wrapper form {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-wrapper form input::placeholder {
+    color: #444;
+}
+
+.form-wrapper {
+    background-color: #eeeeee;
+}
+
+.form-wrapper form input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    background-color: #cccccc;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-radius: 4px
+}
+
+.form-wrapper form input.half {
+    width: 45%;
+}
+
+.form-wrapper form input[type='submit'] {
+    background-color: #252525;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 0.9em;
+    height: 35px;
+    padding: 8px 0;
+    width: 100%;
+    max-width: 120px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 -5px 4px #444;
+    transition: 0.5s all;
+}
+
+.form-wrapper form input[type='submit']:hover {
+    background-color: #fff;
+    color: #252525;
+    box-shadow: 0 5px 4px #444;
+    font-weight: bold;
+}

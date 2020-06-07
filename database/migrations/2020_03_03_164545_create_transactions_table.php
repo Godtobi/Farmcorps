@@ -21,7 +21,7 @@ class CreateTransactionsTable extends Migration
             $table->string('txref');
             $table->string('flwref');
             $table->string('currency');
-            $table->integer('amount');
+            $table->float('amount');
             $table->string('cycle');
             $table->string('chargedmessage');
             $table->string('authmodel');

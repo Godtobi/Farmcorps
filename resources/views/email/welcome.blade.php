@@ -119,8 +119,9 @@
             <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
                 <tr>
                     <td align="center" valign="top" style="padding: 40px 10px 40px 10px;">
-                        <img alt="Logo" src="{{secure_asset('image/logo.png')}}">
-                        </a>
+                        <img src="https://res.cloudinary.com/dxhgszxvl/image/upload/v1584098905/logo_yca3x8.png"  alt="Farmcorps" title="Farmcorps" style="display:block" width="200" height="87">
+                        {{--<img alt="Logo" src="{{secure_asset('image/logo.png')}}">--}}
+
                     </td>
                 </tr>
             </table>
@@ -143,7 +144,8 @@
                 <tr>
                     <td bgcolor="#ffffff" align="center" valign="top"
                         style="padding: 40px 20px 20px 20px; border-radius: 4px 4px 0px 0px; color: #111111; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 48px; font-weight: 400; letter-spacing: 4px; line-height: 48px;">
-                        <h6 style="font-size: 24px; font-weight: 400; margin: 0;">Hello {{$data['name']}} !</h6>
+
+                        {{--<h6 style="font-size: 24px; font-weight: 400; margin: 0;">Hello {{$data['name']}} !</h6>--}}
                     </td>
                 </tr>
             </table>
@@ -167,9 +169,9 @@
                 <tr>
                     <td bgcolor="#ffffff" align="left"
                         style="padding: 20px 30px 20px 30px; color: #666666;text-align: justify; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 25px;">
-                        <p style="margin: 0;">Thank you for requesting a demo.</p>
-                           <p> Farmcorps  has deployed this to ease the communication processes for effective interaction between farmers  and Producers, thereby improving the food quality in the country.</p>
-                           <p> Users can lodge issues and have real time feedback with respect to matters concerning the  whilst offering other value-adding services through the platform. This is in a bid to deliver first class service to you the farmers.</p>
+                        <p style="margin: 0;">Thank you  for signing up to use FarmCorp’s buyer platform for your agricultural produce sourcing.</p>
+                           <p>Our customer service representative would contact you within the next 24 hours to help you set up your account and get you started.</p>
+                           <p>Please do reach out to us via enquiry@farmcorps.net or +234809898356 for any enquiry or issues related to your account</p>
                         {{--<p style="margin: 0;">The mobile application offers some of the following services:--}}
                         {{--<uli>--}}
                             {{--<li><b>Communication Platform:</b> Centralized platform that fosters communication process between residents and the Facility Managers.--}}
@@ -194,22 +196,22 @@
                   </td>
                 </tr> -->
 
-                <tr>
-                <td bgcolor="#ffffff" align="left" style="padding: 20px 30px 4px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;" >
-                  <p style="margin: 0;">we cant wait to show you our demo</p>
-                  
+                {{--<tr>--}}
+                {{--<td bgcolor="#ffffff" align="left" style="padding: 20px 30px 4px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;" >--}}
+                  {{--<p style="margin: 0;">we cant wait to show you our demo</p>--}}
+                  {{----}}
               {{--</br><p style="margin: 0;"> <b><a href="https://urbanshelter.e-estatesapp.com/login">https://urbanshelter.e-estatesapp.com</a></b></p>--}}
                 {{--</br><p style="margin: 0;">Your username for login is: <b>{{ $user->email }}</b></p>--}}
               {{--</br><p style="margin: 0;">Your password for login is: <b>{{ $password }}</b></p>--}}
-              </br>
-                  </td>
-              </tr>
+              {{--</br>--}}
+                  {{--</td>--}}
+              {{--</tr>--}}
 
-                <tr>
-                  <td bgcolor="#ffffff" align="left" style="padding: 0px 30px 20px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 25px;">
-                <p>We are optimistic that this application will improve your  experience in the</p>
-                </td>
-                </tr>
+                {{--<tr>--}}
+                  {{--<td bgcolor="#ffffff" align="left" style="padding: 0px 30px 20px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 25px;">--}}
+                {{--<p>We are optimistic that this application will improve your  experience in buying agricultural produce.</p>--}}
+                {{--</td>--}}
+                {{--</tr>--}}
                 <!-- BULLETPROOF BUTTON -->
 
                 <!-- COPY -->
@@ -235,7 +237,7 @@
                 <tr>
                     <td bgcolor="#ffffff" align="left"
                         style="padding: 0px 30px 40px 30px; border-radius: 0px 0px 4px 4px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 25px;">
-                        <p style="margin: 0;">Yours Faithfully,<br> for Farmcorps</p>
+                        <p style="margin: 0;">Tobi Oyebamiji,<br> Head, Customer Service<br>Farmcorps</p>
                     </td>
                 </tr>
             </table>

@@ -5,20 +5,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{asset('land/css/nav.css')}}">
     <link rel="stylesheet" href="{{asset('land/css/FarmerPage.css')}}">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
     <script src="{{asset('land/js/farmerLogin.js')}}"></script>
     <link rel="shortcut icon" href="{{asset('land/assets/favicon.ico')}}" type="image/x-icon">
-    <title>FarmCorps for Farm Agents</title>
+    <title>FarmCorps | | Farm Agents</title>
 </head>
 
 <body onscroll="changeHeaderColor()">
-    <header>
-        <nav>
-            <a href="/" class="brand"><img src="{{asset('land/img/logo.PNG')}}" alt=""></a>
+<header class="v-header container">
+        <nav class="nav"   style="z-index: 7000;">
+            <div id="nav-icon1">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="container">
+                <a href="/" class="brand">
+                    <img src="{{asset('land/assets/logo.PNG')}}" alt="Logo">
+                </a>
 
+                <ul class="nav-links">
+                    <li class="nav-item">
+                        <a href="/">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/contact">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/blog">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/farmers/register">Farmer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/agent/signup">Agent</a>
+                    </li>
+                </ul>
+                <div class="auth">
+                    <a href="{{route('getstarted')}}" class="sign-btn open-modal">Get Started</a>
+                    <a href="/login" class="sign-btn">Login</a>
+                </div>
+            </div>
+
+            <div class="mobile-nav">
+
+                <a href="/" class="brand">
+                    <img src="{{asset('land/assets/logo.PNG')}}" alt="Logo">
+                </a>
+
+                <ul class="nav-links">
+                    <li class="nav-item">
+                        <a href="/">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/contact">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/farmers/register">Farmer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/agent/signup">Agent</a>
+                    </li>
+                </ul>
+                <div class="auth">
+                    <a href="{{route('getstarted')}}" class="sign-btn open-modal">Get Started</a>
+                    <a href="/login" class="sign-btn">Login</a>
+                </div>
+            </div>
         </nav>
     </header>
+
+    <section id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img style="height: 50px; display: block; width: 100%; object-fit: scale-down;"
+                src="{{asset('land/img/logo.PNG')}}" alt="logo">
+            <h2>We're ready to help</h2>
+            <div id="form-container">
+                <form action="{{route('users.store')}}" method="post">
+                    @csrf
+                    <div>
+                        <label>Name <span>*</span> </label> <input name="name" type="text" required>
+                    </div>
+                    <div>
+                        <label>Email <span>*</span> </label> <input name="email" type="email" required>
+                    </div>
+                    <div>
+                        <label>Phone Number <span>*</span> </label> <input name="phone" type="tel" required>
+                    </div>
+                    <div>
+                        <label>Company </label> <input name="company" type="text">
+                    </div>
+                    <div class="text-area">
+                        <label for="">How can we help?</label>
+                        <textarea name="description"></textarea>
+                    </div>
+
+                    <div class="checkbox">
+                        <label for="">
+                        </label>
+                        <input type="checkbox"> Subscribe to our news letter
+                    </div>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+
+            <div id="enquiry">
+                <div class="enq-img"></div>
+                <div class="text">
+                    <p>We are ready to answer all your questions about how FarmCorps helps you to buy quality produce
+                        from farmers.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
 
     <section id="hero">
         <div class="overlay"></div>
@@ -268,6 +391,9 @@
         <p>No 5A Emina Cresent Ikeja Lagos.</p>
 
     </footer>
+    
+    <script src="{{asset('land/js/index.js')}}"></script>
+
 </body>
 @include('sweetalert::alert')
 </html>

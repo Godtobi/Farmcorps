@@ -13,7 +13,24 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Farmcorps'),
+
+    /*
+     *
+     * Enviromental variables for Rave
+     *
+     * */
+
+    'rave'=>[
+        'RAVE_PUBLIC_KEY'=>'FLWPUBK-ce329602a75815d506ada47fc0a1b1a6-X',
+        'RAVE_SECRET_KEY'=>'FLWSECK-cf64e56451a2607bf0bd3b6f7eb28fe7-X',
+        'RAVE_TITLE'=>"Farmcorps",
+        'RAVE_ENVIRONMENT'=>"staging",
+        'RAVE_LOGO'=>"https://drive.google.com/open?id=1tjZXZ9SEbnr6pFhESDssHGZUEC2ypUzh",
+        'RAVE_PREFIX'=>"rave",
+        'SECRET_HASH'=>'Digital007'
+    ],
+
 
     /*
     |--------------------------------------------------------------------------

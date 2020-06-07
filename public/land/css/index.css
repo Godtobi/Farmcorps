@@ -475,7 +475,8 @@
 
 .sponsors h2 {
   display: inline-block;
-  width: 25%;
+  text-align: center;
+  width: 100%;
   vertical-align: 50%
 }
 

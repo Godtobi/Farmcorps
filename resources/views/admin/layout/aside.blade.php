@@ -53,6 +53,31 @@
                     </ul>
                 </li>
 
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link active">
+                        <i class="nav-icon  fas fa-users"></i>
+                        <p>
+                           Agent
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+
+                        <li class="nav-item">
+                            <a href="{{route('farm.request')}}" class="nav-link active">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Requests</p>
+                            </a>
+                        </li>
+                        {{--<li class="nav-item">--}}
+                        {{--<a href="./index3.html" class="nav-link">--}}
+                        {{--<i class="far fa-circle nav-icon"></i>--}}
+                        {{--<p>Dashboard v3</p>--}}
+                        {{--</a>--}}
+                        {{--</li>--}}
+                    </ul>
+                </li>
+
 
 
                 <li class="nav-item has-treeview">
@@ -75,6 +100,13 @@
                             <a href="" class="nav-link active">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Contacts</p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="nav-link active">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>User Negotiate</p>
                             </a>
                         </li>
 
@@ -108,6 +140,25 @@
                             <a href="{{route('payment.index')}}" class="nav-link active">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Payment</p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon  fas fa-users"></i>
+                        <p>
+                            Farmers
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="{{route('farmer.add')}}" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Create</p>
                             </a>
                         </li>
 

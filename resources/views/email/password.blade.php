@@ -119,8 +119,8 @@
             <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
                 <tr>
                     <td align="center" valign="top" style="padding: 40px 10px 40px 10px;">
-                        <img alt="Logo" src="{{secure_asset('image/logo.png')}}">
-                        </a>
+                        <img src="https://res.cloudinary.com/dxhgszxvl/image/upload/v1584098905/logo_yca3x8.png"  alt="Farmcorps" title="Farmcorps" style="display:block" width="200" height="87">
+
                     </td>
                 </tr>
             </table>
@@ -143,7 +143,7 @@
                 <tr>
                     <td bgcolor="#ffffff" align="center" valign="top"
                         style="padding: 40px 20px 20px 20px; border-radius: 4px 4px 0px 0px; color: #111111; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 48px; font-weight: 400; letter-spacing: 4px; line-height: 48px;">
-                        <h6 style="font-size: 24px; font-weight: 400; margin: 0;">Hello {{$data['name']}} !</h6>
+                        {{--<h6 style="font-size: 24px; font-weight: 400; margin: 0;">Hello {{$data['name']}} !</h6>--}}
                     </td>
                 </tr>
             </table>
@@ -167,7 +167,9 @@
                 <tr>
                     <td bgcolor="#ffffff" align="left"
                         style="padding: 20px 30px 20px 30px; color: #666666;text-align: justify; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 25px;">
-                        <p style="margin: 0;">This is your password {{$data['password']}}.</p>
+                        <p> Congratulations!.</p>
+                        <p>Your FarmCorps account is all set and you are ready to go buy some quality grain from our farmers.</p>
+
 
                         {{--<p style="margin: 0;">The mobile application offers some of the following services:--}}
                         {{--<uli>--}}
@@ -185,6 +187,11 @@
                         {{--</p>--}}
 
                     </td>
+                <tr>
+                    <td bgcolor="#ffffff" align="left" style="padding: 0px 30px 20px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 25px;">
+
+                    </td>
+                </tr>
                 </tr>
 
                 <!-- <tr>
@@ -195,20 +202,20 @@
 
                 <tr>
                 <td bgcolor="#ffffff" align="left" style="padding: 20px 30px 4px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;" >
-                  <p style="margin: 0;">we cant wait to show you our demo</p>
-                  
-              </br><p style="margin: 0;"> <b><a href="https://farmcorps.net/login">https://farmcorps.net/login</a></b></p>
 
-              </br><p style="margin: 0;">Your password for login is: <b>{{ $data['password']}}</b></p>
+                  
+              </br><p style="margin: 0;">Please login at <b><a href="https://farmcorps.net/login">https://farmcorps.net/login</a></b></p>
+
+              </br><p style="margin: 0;">Password: <b>{{ $data['password']}}</b></p>
               </br>
                   </td>
               </tr>
 
-                <tr>
-                  <td bgcolor="#ffffff" align="left" style="padding: 0px 30px 20px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 25px;">
-                <p>We are optimistic that this application will improve your  experience in produce buying and selling</p>
-                </td>
-                </tr>
+                {{--<tr>--}}
+                  {{--<td bgcolor="#ffffff" align="left" style="padding: 0px 30px 20px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 25px;">--}}
+                {{--<p>We are optimistic that this application will improve your  experience in produce buying and selling</p>--}}
+                {{--</td>--}}
+                {{--</tr>--}}
                 <!-- BULLETPROOF BUTTON -->
 
                 <!-- COPY -->
@@ -234,7 +241,7 @@
                 <tr>
                     <td bgcolor="#ffffff" align="left"
                         style="padding: 0px 30px 40px 30px; border-radius: 0px 0px 4px 4px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 25px;">
-                        <p style="margin: 0;">Yours Faithfully,<br> for Farmcorps</p>
+                        <p style="margin: 0;">Thanks</p>
                     </td>
                 </tr>
             </table>

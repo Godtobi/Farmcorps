@@ -76,6 +76,7 @@ class UsersController extends Controller
 
         try{
             User::create($data);
+            Mail::to($data['email'])->send(new WelcomeMail($data));
             Alert::success('Success', $message);
             return back();
         }
@@ -105,7 +106,7 @@ class UsersController extends Controller
         $data['name']=$user->name;
         $data['password']=$pass;
         $data['email']=$user->email;
-        Mail::to('oyebamijitobi@gmail.com')->send(new PasswordMail($data));
+        Mail::to($user->email)->send(new PasswordMail($data));
         $user->password_counter+=1;
         $user->password = Hash::make($pass);
         $user->save();

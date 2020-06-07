@@ -48,6 +48,16 @@ return [
             'root' => storage_path('app'),
         ],
 
+        'gcs' => [
+            'driver' => 'gcs',
+            'project_id' => env('GOOGLE_CLOUD_PROJECT_ID', 'farmcorps-267614'),
+            'key_file' => env('GOOGLE_CLOUD_KEY_FILE',public_path('farm_uploads\farmcorps.json')), // optional: /path/to/service-account.json
+            'bucket' => env('GOOGLE_CLOUD_STORAGE_BUCKET', 'farmcorps-267614.appspot.com'),
+            'path_prefix' => env('GOOGLE_CLOUD_STORAGE_PATH_PREFIX', null), // optional: /default/path/to/apply/in/bucket
+            'storage_api_uri' => env('GOOGLE_CLOUD_STORAGE_API_URI', 'https://console.cloud.google.com/storage/browser/farmcorps-267614.appspot.com'), // see: Public URLs below
+            'visibility' => 'public', // optional: public|private
+        ],
+
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),

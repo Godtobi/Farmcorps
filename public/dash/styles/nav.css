@@ -1,0 +1,137 @@
+header {
+    height: 60px;
+    background-image: url(../assets/icon.png);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 15px #000;
+    /* background-color: lawngreen; */
+}
+
+nav {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(0, 102, 0, 0.8);
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .brand {
+    color: #ffb400;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.brand span {
+    color: #39b54a;
+}
+
+nav ul.nav-list {}
+
+
+
+.nav-list .nav-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-item .nav-link {
+    color: #fff;
+}
+
+.nav-item.search {
+    /* position: relative; */
+}
+
+.nav-item.search form {
+    position: absolute;
+    display: block;
+    width: 0%;
+    height: 48px;
+    background-color: #fff;
+    transform-origin: 0 0;
+    /* padding-right: 20px; */
+    /* pointer-events: none; */
+    top: 60px;
+    left: 0px;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* bottom: -59px; */
+    box-shadow: 0 0 10px -5px #555;
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.nav-item.search form.show {
+    width: 100%;
+    opacity: 1;
+}
+
+.nav-item.search form input {
+    /* pointer-events: all; */
+    margin-right: 20px;
+    height: 40px;
+    width: 250px;
+    outline: none;
+    padding-left: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+
+
+.dash-menu {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    /* width: 70px; */
+    background-color: #252525;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transform: translateX(-300px);
+    z-index: 8;
+    transition: all 0.3s ease-in-out;
+}
+
+.dash-menu.show {
+    transform: translateX(0px);
+}
+
+.dash-menu li {
+    margin: 15px auto;
+    list-style: none;
+}
+
+.dash-menu .dash-link {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.dash-menu .dash-link:hover {
+    color: lightgreen
+}
+
+.dash-menu i.fas {
+    font-size: 20px;
+    width: 100%;
+}

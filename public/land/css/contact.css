@@ -1,0 +1,334 @@
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.map {}
+
+.map .container {
+    height: 60vh;
+    background-color: #17a668;
+}
+
+.contact {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.contact .container {
+    padding: 0 1rem;
+    max-width: 1000px;
+    margin: 40px auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .contact-text {
+    margin-right: 15px;
+}
+
+.contact-text h2 {
+    font-size: 25px;
+    text-align: left;
+}
+
+.contact-text h2 span {
+    color: #17a668;
+}
+
+.contact-text p {
+    margin-bottom: 10px;
+}
+
+.contact-text i {
+    margin-left: 5px;
+    color: #17a668;
+}
+
+.contact .contact-form {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    max-width: 600px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.contact-form form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-form form::placeholder {
+    color: #959595;
+}
+
+.contact-form form input {
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: #eeeeee;
+    width: 100%;
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+}
+
+.contact-form form input.half {
+    width: 45%;
+}
+
+.contact-form form input[type="submit"] {
+    margin-top: 25px;
+    justify-self: right;
+    color: #fff;
+    background-color: #17a668;
+    width: 100%;
+    max-width: 180px;
+    padding: 8px 0;
+    cursor: pointer;
+}
+.contact-form form input[type="submit"]:active,
+.contact-form form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #17a668;
+    font-weight: bold;
+    box-shadow: 0 4px 3px #aaa;
+}
+
+.contact-form form textarea {
+    outline: none;
+    width: 100%;
+    height: 150px;
+    resize: none;
+    border: none;
+    background-color: #eeeeee;
+    padding: 15px 10px 10px 20px;
+}
+
+hr.hr-1 {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .75), rgba(0, 0, 0, 0));
+    width: 90%;
+    margin: auto;
+}
+
+footer {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #fff;
+    color: #000;
+}
+
+footer hr {
+    width: 90%;
+    margin: auto auto 20px;
+    display: none;
+}
+
+footer .container {
+    width: 90%;
+    margin: auto;
+    line-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .container div {
+    display: inline-block;
+    width: 45%;
+    /* border: 1px solid red; */
+}
+
+footer .footer-links {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer li {
+    width: 40%;
+    margin-right: 10px;
+    list-style: none;
+    color: #000;
+    text-align: left;
+    /* width: 50%; */
+    /* border: 1px solid red; */
+
+}
+
+footer li a {
+    text-decoration: none;
+    color: #000;
+}
+footer li a:hover {
+    text-decoration: underline;
+}
+
+footer h4 {
+    font-size: 18px;
+    color: #000;
+}
+
+footer .subscribe {
+    text-align: right;
+}
+
+footer .subscribe form div {
+    background-color: transparent;
+    height: 40px;
+    width: 300px;
+    position: relative;
+    /* border-radius: 8px; */
+}
+
+footer .subscribe div input {
+    border: 1px solid #424242;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 90px;
+    font-size: 16px;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+footer .subscribe div button {
+    position: absolute;
+    height: calc(100% - 8px);
+    top: 4px;
+    right: 4px;
+    padding: 2px 8px;
+    border: none;
+    background-color: rgba(23, 23, 23, 0.7);
+    color: #fff;
+    font-weight: bold;
+}
+footer .subscribe div button:hover {
+    background-color: rgba(23, 23, 23, 1);
+    color: #ddd;
+}
+
+footer .socials li {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    margin: 0 5px;
+    width: auto;
+}
+
+footer .socials li a {
+    color: inherit;
+    display: block;
+    width: 100%;
+}
+
+footer i.fa {
+    /* width: 25px; */
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+footer .fa {
+    transform: scale(1);
+    transition: all 0.3s;
+}
+footer .fa:hover {
+    transform: scale(1.5);
+    transition: all 0.3s;
+}
+footer .fa-twitter:hover {
+    color: #00acee;
+}
+footer .fa-facebook-official:hover {
+    color: #3b5998;
+}
+footer .fa-instagram:hover {
+    background: linear-gradient(#833ab4, #fd1d1d, #fcb045);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media (max-width:60em) {
+    }
+@media (max-width:666px) {
+    }
+@media (max-width:52em) {
+
+    .contact .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact .contact-text {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .contact-text h2 {
+        text-align: inherit;
+    }
+
+    footer .container {
+        padding: 0;
+        text-align: center;
+    }
+
+    footer .footer-links {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .footer-links li {
+        width: 45%;
+        /* margin: %; */
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    footer .container div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer .subscribe {
+        text-align: center;
+    }
+
+}
+@media (max-width:42em) {
+    .contact-form form input.half {
+        width: 48%;
+    }
+
+}
+
+@media (max-width: 36em) {
+
+    footer .subscribe form div {
+        width: 100%;
+      }
+}
+
+
+@media (max-width: 450px) {
+    .contact-form form input.half {
+        width: 100%;
+    }
+}
