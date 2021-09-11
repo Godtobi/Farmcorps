@@ -57,8 +57,8 @@
                     </li>
                 </ul>
                 <div class="auth">
-                    <a href="https://master.dqunlcwzd79ib.amplifyapp.com" class="sign-btn open-modal">Get Started</a>
-                    <a href="https://master.dqunlcwzd79ib.amplifyapp.com" class="sign-btn">Login</a>
+                    <a href="{{route('getstarted')}}" class="sign-btn open-modal">Get Started</a>
+                    <a href="/login" class="sign-btn">Login</a>
                 </div>
             </div>
 
@@ -93,8 +93,8 @@
 
                 </ul>
                 <div class="auth">
-                    <a href="https://master.dqunlcwzd79ib.amplifyapp.com"  class="sign-btn">Get Started</a>
-                    <a href="https://master.dqunlcwzd79ib.amplifyapp.com" class="sign-btn">Login</a>
+                    <a href="{{route('getstarted')}}"  class="sign-btn">Get Started</a>
+                    <a href="/login" class="sign-btn">Login</a>
                 </div>
             </div>
         </nav>
@@ -109,7 +109,7 @@
             <p>We help you source and aggregate quality grains and other raw materials produced locally and sustainably
                 from the best farmers in Africa to meet your production demand.
             </p>
-            <a href="https://master.dqunlcwzd79ib.amplifyapp.com" class="btn open-modal" id="myBtn">Get Started</a>
+            <a href="{{route('getstarted')}}" class="btn open-modal" id="myBtn">Get Started</a>
         </div>
     </header>
 
