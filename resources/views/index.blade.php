@@ -58,7 +58,7 @@
                 </ul>
                 <div class="auth">
                     <a href="{{route('getstarted')}}" class="sign-btn open-modal">Get Started</a>
-                    <a href="/login" class="sign-btn">Login</a>
+                    <a href="/login" class="sign-btn">Loginsssss</a>
                 </div>
             </div>
 
