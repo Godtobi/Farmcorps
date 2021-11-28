@@ -34,6 +34,7 @@ Route::post('/agent/store', 'AppController@storeAgent')->name('agent.store');
 Route::get('/get-started', 'AppController@getStartedPage')->name('getstarted');
 Route::post('/find-farms', 'AppController@findFarm')->name('find-farm');
 Route::get('/contact','AppController@contact');
+Route::get('/impact','AppController@impact');
 Route::post('/contact', 'AppController@contactMessage')->name('contactMessage');
 
 Route::get('/farmers/register', 'FarmerController@registerFarmer')->name('farmer.reg');

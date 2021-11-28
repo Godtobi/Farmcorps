@@ -206,4 +206,8 @@ class AppController extends Controller
         return response()->view('sitemap')->header('Content-Type', 'text/xml');
     }
 
+    public function impact(){
+        return view('impact');
+    }
+
 }
